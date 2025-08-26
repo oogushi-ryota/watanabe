@@ -1,0 +1,31 @@
+// Foundation
+@use "foundation/reset";
+@use "foundation/base";
+@use "foundation/variables" as *;
+
+// Layout
+@use "layout/main";
+@use "layout/footer";
+@use "layout/header";
+
+// Component
+@use "component/entry";
+@use "component/ttl";
+@use "component/inner";
+@use "component/btn";
+@use "component/breadcrumb";
+@use "component/under-fv";
+@use "component/sec-ttl";
+@use "component/color";
+
+// Project
+// トップページ
+@use "project/top/top-fv";
+
+// animation
+@use "animation/js-accordion";
+@use "animation/js-nav";
+
+// Utility
+@use "utility/responsive.scss";
+@use "utility/txt";

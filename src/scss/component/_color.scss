@@ -1,0 +1,7 @@
+@use "foundation/variables" as *;
+
+.c-color-txt {
+  & {
+    color: $color-orange;
+  }
+}

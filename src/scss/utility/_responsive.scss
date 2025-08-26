@@ -1,0 +1,15 @@
+@media (max-width: 767px) {
+  .is-pc {
+    display: none !important;
+  }
+}
+
+.is-sp {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .is-sp {
+    display: block !important;
+  }
+}

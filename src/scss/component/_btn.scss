@@ -1,0 +1,37 @@
+@use "foundation/variables" as *;
+
+.c-btn {
+  & {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 26.8rem;
+    height: 5.6rem;
+    background-color: #0D8352;
+    border-radius: 100vmax;
+    padding: 2rem 5rem;
+    position: relative;
+
+    &__txt {
+      color: $color-white;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__svg {
+      width: 1.1rem;
+      height: 1.2rem;
+      position: absolute;
+      top: 50%;
+      right: 2rem;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
+  }
+}

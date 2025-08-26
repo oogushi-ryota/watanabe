@@ -1,0 +1,151 @@
+@use "foundation/variables" as *;
+
+.c-entry {
+  & {
+    width: 100%;
+    height: 57rem;
+    background-image: url(../img/common/entry_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    @media (max-width: 767px) {
+      height: auto;
+      padding: 4rem 2rem;
+      background-position: center;
+      background-size: cover;
+    }
+
+    &::before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      background-color: rgba($color: #000, $alpha: .3);
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    &__cont {
+      width: 80rem;
+      height: 33rem;
+      background-color: $color-white;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
+      }
+    }
+
+    &__ttl {
+      font-size: 2.8rem;
+      font-weight: 500;
+      line-height: 150%;
+      letter-spacing: .05em;
+      text-align: center;
+      position: relative;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+      }
+
+      &::before,
+      &::after {
+        content: "";
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: -1;
+      }
+
+      &::before {
+        width: 17.2rem;
+        height: 1.7rem;
+        background-image: url(../img/common/entry_txt-obj_top.svg);
+        top: 2.7rem;
+        right: 9.7rem;
+
+        @media (max-width: 767px) {
+          width: 12rem;
+          height: 1.3rem;
+          top: 1.8rem;
+          right: 5.7rem;
+        }
+      }
+
+      &::after {
+        width: 12.5rem;
+        height: 1.4rem;
+        background-image: url(../img/common/entry_txt-obj_bottom.svg);
+        bottom: 0;
+        right: 16.7rem;
+
+        @media (max-width: 767px) {
+          width: 8.7rem;
+          height: 1rem;
+          bottom: -.2rem;
+          right: 11rem;
+        }
+      }
+    }
+
+    &__txt {
+      font-size: 1.8rem;
+      line-height: 100%;
+      letter-spacing: .05em;
+      text-align: center;
+      margin-top: 2.4rem;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+        line-height: 150%;
+      }
+    }
+
+    &__btn {
+      width: 28rem;
+      height: 6rem;
+      background-color: $color-orange;
+      border-radius: 100vmax;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 3.2rem;
+      position: relative;
+    }
+    
+    &__btn-txt {
+      font-family: $font-en;
+      color: $color-white;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: .05em;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__arrow {
+      width: 1.1rem;
+      height: 1.2rem;
+      position: absolute;
+      top: 50%;
+      right: 3rem;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
+  }
+}

@@ -1,0 +1,56 @@
+@use "foundation/variables" as *;
+
+.c-sec-anchor {
+  & {
+    width: 40rem;
+    margin-top: 20rem;
+
+    @media (max-width: 767px) {
+      width: 100%;
+      margin-top: 8rem;
+    }
+
+    &__item {
+      border-top: solid 1px #D8D8D8;
+      position: relative;
+
+      &:last-child {
+        border-bottom: solid 1px #D8D8D8;
+      }
+
+      &::after {
+        content: "";
+        width: 2.2rem;
+        height: 2.2rem;
+        background-image: url(../img/common/anchor_arrow.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 50%;
+        right: 0%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+
+        @media (max-width: 767px) {
+          width: 1.8rem;
+          height: 1.8rem;
+        }
+      }
+    }
+
+    &__link {
+      color: $color-black;
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 100%;
+      display: block;
+      padding: 2.4rem 0;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+        padding: 2rem 0;
+      }
+    }
+  }
+}

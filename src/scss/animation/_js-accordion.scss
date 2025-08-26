@@ -1,0 +1,14 @@
+@use "foundation/variables" as *;
+
+.js-accordion {
+  & {
+    &.is-open {
+      .c-faq-list__btn {
+        &::after {
+          opacity: 0;
+          visibility: hidden;
+        }
+      }
+    }
+  }
+}

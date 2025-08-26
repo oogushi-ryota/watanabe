@@ -1,0 +1,74 @@
+@use "foundation/variables" as *;
+
+.c-breadcrumb {
+  & {
+    margin-top: 16rem;
+    padding: 0 20rem;
+
+    @media (max-width: 767px) {
+      margin-top: 10rem;
+      padding: 0 2rem;
+    } 
+
+    &__nav {
+      padding-bottom:  1.6rem;
+      border-bottom: solid 1px #D8D8D8;
+
+      @media (max-width: 767px) {
+        padding-bottom: 1.2rem;
+      }
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 0 3rem;
+
+      @media (max-width: 767px) {
+        gap: 0 2rem;
+      }
+    }
+
+    &__item {
+      position: relative;
+
+      &:not(:last-child) {
+        &::after {
+          content: "";
+          width: .6rem;
+          height: 1.1rem;
+          background-image: url(../img/common/breadcrumb_arrow.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          position: absolute;
+          top: 56%;
+          right: -1.4rem;
+          transform: translateY(-50%);
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+
+          @media (max-width: 767px) {
+            width: .4rem;
+            height: .8rem;
+          }
+        }
+      }
+    }
+
+    &__link {
+      color: $color-orange;
+      font-size: 1.6rem;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    span.c-breadcrumb__link {
+      opacity: .5;
+    }
+  }
+}
