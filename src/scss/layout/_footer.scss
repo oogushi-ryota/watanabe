@@ -2,6 +2,271 @@
 
 .l-footer {
   & {
+    margin-top: 12rem;
+    background-color: $color-black;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
     
+    &__inner {
+      padding: 8rem 0 3.2rem;
+
+      @media (max-width: 767px) {
+        padding: 8rem 0 0;
+      }
+    }
+
+    &__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
+    &__logo {
+      width: 20rem;
+    }
+
+    &__nav {
+      @media (max-width: 767px) {
+        margin-top: 4rem;
+      }
+    }
+
+    &__nav-list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 4rem;
+
+      @media (max-width: 767px) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3.2rem 8rem;
+      }
+    }
+
+    &__nav-link {
+      color: $color-white;
+      font-size: 1.8rem;
+      letter-spacing: .03em;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__branch {
+      margin-top: 4.8rem;
+
+      @media (max-width: 767px) {
+        margin-top: 3.2rem;
+      }
+    }
+
+    &__branch-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+
+      @media (max-width: 767px) {
+        display: block;
+      }
+    }
+
+    &__branch-item {
+      padding: 3.2rem 0;
+      border-top: solid 1px $color-gray;
+      position: relative;
+
+      &:nth-of-type(2),
+      &:nth-of-type(5) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 767px) {
+          display: block;
+        }
+
+        .l-footer__branch-wrap {
+          width: 100%;
+          padding-left: 7.5rem;
+          padding-right: 7.5rem;
+          border-left: solid 1px $color-gray;
+          border-right: solid 1px $color-gray;
+
+          @media (max-width: 767px) {
+            padding: unset;
+            border-left: unset;
+            border-right: unset;
+          }
+        }
+      }
+
+      &:nth-of-type(3),
+      &:nth-of-type(6) {
+        padding-left: 7.5rem;
+
+        @media (max-width: 767px) {
+          padding-left: unset;
+        }
+
+        .l-footer__branch-wrap {
+          margin: 0 0 0 auto;
+
+          @media (max-width: 767px) {
+            margin: unset;
+          }
+        }
+      }
+    }
+
+    &__branch-wrap {
+      width: 38rem;
+      padding: 2.4rem 0;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: unset;
+      }
+    }
+
+    &__branch-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
+    &__branch-name {
+      color: $color-white;
+      font-size: 1.8rem;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__branch-map {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: .8rem;
+      margin-top: 1.6rem;
+      padding-bottom: .4rem;
+      border-bottom: solid 2px $color-white;
+
+      @media (max-width: 767px) {
+        margin-top: 1.2rem;
+      }
+    }
+
+    &__branch-svg {
+      width: 1.5rem;
+      height: 1.8rem;
+
+      @media (max-width: 767px) {
+        width: 1.2rem;
+        height: 1.5rem;
+      }
+    }
+
+    &__branch-map-txt {
+      color: $color-white;
+      font-family: $font-en;
+      font-size: 1.8rem;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__branch-img {
+      width: 38rem;
+      margin-top: 2.4rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &__branch-details {
+      color: $color-white;
+      margin-top: 2.4rem;
+    }
+
+    &__branch-postcode,
+    &__branch-address {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 100%;
+      display: block;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    &__branch-postcode {
+      font-family: $font-en;
+    }
+
+    &__branch-address {
+      margin-top: .8rem;
+    }
+
+    &__branch-tel,
+    &__branch-fax {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 1.2rem;
+      margin-top: 1.6rem;
+
+      @media (max-width: 767px) {
+        margin-top: 1.2rem;
+      }
+    }
+
+    &__branch-s-txt {
+      font-size: 1.2rem;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1rem;
+      }
+    }
+
+    &__branch-tel-num,
+    &__branch-fax-num {
+      font-family: $font-en;
+      font-size: 1.6rem;
+      line-height: 100%;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      } 
+    }
+
+    &__small {
+      color: $color-white;
+      font-size: 1.2rem;
+      line-height: 100%;
+      letter-spacing: .03em;
+      text-align: center;
+      display: block;
+      padding: 2.4rem 0;
+      border-top: solid 1px $color-gray;
+
+      @media (max-width: 767px) {
+        font-size: 1rem;
+      }
+    }
   }
 }

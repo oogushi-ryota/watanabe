@@ -11,6 +11,7 @@ export function initHamburgerMenu({
   const $nav = $(navSelector);
   const $btn = $(btnSelector);
   const $body = $("body");
+  const $header = $(".l-header");
   const $closeTargets = $(closeTargetSelector);
   const $extraEls = extraTargets.map(sel => $(sel));
 
@@ -20,6 +21,7 @@ export function initHamburgerMenu({
     $nav[method]("is-active");
     $btn[method]("is-active");
     $body[method]("is-active");
+    $header[method]("is-active");
     $extraEls.forEach($el => $el[method]("is-active"));
 
     if (lenisInstance) {

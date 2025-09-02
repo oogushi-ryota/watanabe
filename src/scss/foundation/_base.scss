@@ -1,16 +1,16 @@
 @use '../foundation/variables' as *;
 
 // // ▼アドビフォント_チラつき防止
-html {
-  visibility: hidden;
-  /* ▼スクロールバーを無効化 (Firefox) */
-  scrollbar-width: none;
-  /* ▲スクロールバーを無効化 (Firefox) */
-}
+// html {
+//   visibility: hidden;
+//   /* ▼スクロールバーを無効化 (Firefox) */
+//   scrollbar-width: none;
+//   /* ▲スクロールバーを無効化 (Firefox) */
+// }
 
-html.wf-active {
-  visibility: visible;
-}
+// html.wf-active {
+//   visibility: visible;
+// }
 // ▲アドビフォント_チラつき防止
 
 body, html {
@@ -32,13 +32,13 @@ body, html {
 body {
   color: $color-black;
   font-size: 1.8rem;
-  font-family: zen-kaku-gothic-new, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   letter-spacing: .05em;
-  line-height: 200%;
-  background-color: #FEFCF6;
+  line-height: 180%;
+  background-color: #FFF;
 
   @media (max-width: 767px) {
     font-size: 1.4rem;
