@@ -1,0 +1,49 @@
+@use '../foundation/variables' as *;
+
+.c-sec-ttl {
+  & {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__en {
+      font-family: $font-en;
+      font-size: 2.4rem;
+      line-height: 100%;
+      position: relative;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+      }
+
+      &::after {
+        content: "";
+        width: 6rem;
+        height: 1px;
+        background-image: url(../img/common/ttl_obj.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: -.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+      }
+    }
+
+    &__ja {
+      font-size: 4rem;
+      line-height: calc(58 / 40);
+      font-weight: 500;
+      margin-top: 2.4rem;
+
+      @media (max-width: 767px) {
+        font-size: 2.6rem;
+        line-height: 150%;
+      }
+    }
+  }
+}

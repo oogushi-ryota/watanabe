@@ -11,10 +11,14 @@
 // Component
 @use "component/inner";
 @use "component/contact";
+@use "component/sec-ttl";
+@use "component/btn";
 
 // Project
 // トップページ
 @use "project/top/top-fv";
+@use "project/top/top-about";
+@use "project/top/top-strengths";
 
 // animation
 @use "animation/js-accordion";

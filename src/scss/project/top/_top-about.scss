@@ -1,0 +1,56 @@
+@use "foundation/variables" as *;
+
+.p-top-about {
+  & {
+    margin-top: 12rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      padding-left: 24rem;
+
+      @media (max-width: 767px) {
+        padding: 0 2rem;
+      }
+    }
+
+    &__cont {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 5.6rem;
+
+      @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+      }
+    }
+
+    &__txtarea {
+      width: 62rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 4rem;
+      }
+    }
+
+    &__btn {
+      margin-top: 8rem;
+
+      @media (max-width: 767px) {
+        margin-top: 4rem;
+      }
+    }
+
+    &__img {
+      width: 89.7rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+}
