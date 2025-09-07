@@ -7,18 +7,26 @@
 @use "layout/main";
 @use "layout/footer";
 @use "layout/header";
+@use "layout/top-features";
 
 // Component
 @use "component/inner";
 @use "component/contact";
 @use "component/sec-ttl";
 @use "component/btn";
+@use "component/line";
+@use "component/news-link";
 
 // Project
 // トップページ
 @use "project/top/top-fv";
+@use "project/top/top-news";
+@use "project/top/top-notice";
 @use "project/top/top-about";
 @use "project/top/top-strengths";
+@use "project/top/top-facility";
+@use "project/top/top-delivery";
+@use "project/top/top-recruit";
 
 // animation
 @use "animation/js-accordion";

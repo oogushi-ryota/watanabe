@@ -41,3 +41,18 @@ export function initHamburgerMenu({
   });
 }
 // ▲ハンバーガーメニュー
+
+// ▼ヘッダーの背景色を変更
+export function initScrollHeader() {
+  const header = document.querySelector(".l-header");
+  if (!header) return; // ヘッダーが存在しなければ終了
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > window.innerHeight) {
+      header.classList.add("is-scrolled");
+    } else {
+      header.classList.remove("is-scrolled");
+    }
+  });
+}
+// ▲ヘッダーの背景色を変更

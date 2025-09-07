@@ -1,0 +1,45 @@
+@use "foundation/variables" as *;
+
+.p-top-delivery {
+  & {
+    margin-top: 16rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__cont {
+      &::after {
+        left: 0;
+
+        @media (max-width: 767px) {
+          top: 28.3rem;
+          right: -29.2rem;
+        }
+      }
+    }
+
+    &__img {
+      right: 0;
+
+      img {
+        clip-path: polygon(
+          20% 0,      /* 左上を少し内側に */
+          100% 0,    /* 右上 */
+          100% 100%, /* 右下 */
+          0 100%     /* 左下 */
+        );
+
+        @media (max-width: 767px) {
+          object-position: right;
+          clip-path: polygon(
+            0 10%,
+            100% 0%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
+    }
+  }
+}

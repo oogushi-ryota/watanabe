@@ -2,15 +2,17 @@
 
 .c-btn {
   & {
-    width: 21.5rem;
+    // width: 21.5rem;
+    width: fit-content;
     padding-bottom: 1.2rem;
     border-bottom: solid 1px $color-gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 4rem;
 
     @media (max-width: 767px) {
-      width: 19.8rem;
+      
     }
 
     &__txt {

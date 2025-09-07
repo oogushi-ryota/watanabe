@@ -10,7 +10,7 @@ import { initSmoothScroll, initAnchorSmoothScroll } from "./utils/scrollUtils.js
 import { initSwiper } from "./utils/swiperUtils.js";
 import { initAccordion } from "./utils/accordionUtils.js";
 import { initScrollFadeIn, initClipPathAnimation, initStaggerFadein } from "./utils/scrollEffects.js";
-import { initHamburgerMenu } from "./utils/hamburgerUtils.js";
+import { initHamburgerMenu, initScrollHeader } from "./utils/hamburgerUtils.js";
 import { preventEnterSubmit } from "./utils/formUtils.js";
 import { animateInitialTextSplit, animateSplitTextOnScroll } from "./utils/splitTextUtils.js";
 
@@ -35,9 +35,5 @@ window.addEventListener('DOMContentLoaded', () => {
     btnSelector: ".js-nav-btn",
     closeTargetSelector: ".l-header__nav-item a",
   });
-
-  // animateSplitTextOnScroll();   // ← スクロール連動のテキストアニメーション
-  // initScrollFadeIn();           // ← フェードイン
-  // initClipPathAnimation();      // ← クリップパスアニメーション
-  // initStaggerFadein();          // ← 順番にフェードイン
+  initScrollHeader();
 });

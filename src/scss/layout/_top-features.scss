@@ -1,0 +1,123 @@
+@use '../foundation/variables' as *;
+
+.l-top-features {
+  & {
+    margin-top: 28rem;
+
+    @media (max-width: 767px) {
+      margin-top: 16rem;
+    }
+
+    &__cont {
+      height: 52rem;
+      padding: 0 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      position: relative;
+
+      @media (max-width: 767px) {
+        height: auto;
+        padding: 8rem 0 0;
+        flex-direction: column-reverse;
+      }
+
+      &::after {
+        font-family: $font-en;
+        font-size: 7.8rem;
+        line-height: 100%;
+        letter-spacing: 0;
+        white-space: nowrap;
+        position: absolute;
+        bottom: .5rem;
+        z-index: 0;
+
+        @media (max-width: 767px) {
+          font-size: 5.8rem;
+          top: 0;
+          bottom: unset;
+          transform: rotate(90deg);
+        }
+      }
+
+      &--facility {
+        background-color: $color-blue;
+
+        &::after {
+          content: "Processing&equipment";
+          color: #E6EEF4;
+        }
+      }
+
+      &--delivery {
+        flex-direction: row-reverse;
+        background-color: $color-pink;
+
+        @media (max-width: 767px) {
+          flex-direction: column-reverse;
+        }
+
+        &::after {
+          content: "Quick delivery";
+          color: #F4E6E6;
+        }
+      }
+    }
+
+    &__img {
+      width: 78.1rem;
+      position: absolute;
+      bottom: 0;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        height: 40rem;
+        margin-top: 4rem;
+        position: static;
+      }
+
+      img {
+        @media (max-width: 767px) {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+
+    &__txtarea {
+      width: 58rem;
+      position: relative;
+      z-index: 1;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0 2rem;
+      }
+
+      .c-sec-ttl {
+        align-items: flex-start;
+
+        &__ja {
+          margin-top: unset;
+        }
+      }
+    }
+
+    &__txt {
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__btn {
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+      }
+    }
+  }
+}

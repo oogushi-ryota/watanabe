@@ -1,0 +1,42 @@
+@use '../foundation/variables' as *;
+
+.c-line {
+  & {
+    width: 1px;
+    height: 100%;
+    background-color: #EFEFEF;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    z-index: 1;
+
+    &::before,
+    &::after {
+      content: "";
+      width: 1px;
+      height: 100%;
+      background-color: #EFEFEF;
+      position: absolute;
+      top: 0;
+    }
+
+    &::before {
+      right: 55rem;
+
+      @media (max-width: 767px) {
+        right: 16.8rem;
+      }
+    }
+
+    &::after {
+      left: 55rem;
+
+      @media (max-width: 767px) {
+        left: 16.8rem;
+      }
+    }
+  }
+}

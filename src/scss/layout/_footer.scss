@@ -2,12 +2,7 @@
 
 .l-footer {
   & {
-    margin-top: 12rem;
     background-color: $color-black;
-
-    @media (max-width: 767px) {
-      margin-top: 8rem;
-    }
     
     &__inner {
       padding: 8rem 0 3.2rem;

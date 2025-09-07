@@ -2,10 +2,12 @@
 
 .c-contact {
   & {
-    margin-top: 16.8rem;
+    margin: 16.8rem 0 16rem;
+    position: relative;
+    z-index: 1;
 
     @media (max-width: 767px) {
-      margin-top: 12rem;
+      margin: 12rem 0 8rem;
     }
 
     &__inner {

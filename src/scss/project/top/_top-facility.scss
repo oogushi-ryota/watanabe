@@ -1,0 +1,39 @@
+@use "foundation/variables" as *;
+
+.p-top-facility {
+  & {
+    &__cont {
+      &::after {
+        right: 0;
+
+        @media (max-width: 767px) {
+          top: 26.4rem;
+          right: -27.6rem;
+        }
+      }
+    }
+
+    &__img {
+      left: 0;
+
+      img {
+        clip-path: polygon(
+          0 0,       /* 左上 */
+          100% 0,    /* 右上 */
+          80% 100%,  /* 右下を少し内側に */
+          0 100%     /* 左下 */
+        );
+
+        @media (max-width: 767px) {
+          object-position: right;
+          clip-path: polygon(
+            0 0%,
+            100% 10%,
+            100% 100%,
+            0% 100%
+          );
+        }
+      }
+    }
+  }
+}

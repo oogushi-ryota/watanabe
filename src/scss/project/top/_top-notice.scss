@@ -1,0 +1,96 @@
+@use "foundation/variables" as *;
+
+.p-top-notice {
+  & {
+    margin-top: 20rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__cont {
+      background-color: #F9F9F9;
+      padding: 8rem 17rem;
+
+      @media (max-width: 767px) {
+        padding: 5.6rem 2rem;
+      }
+    }
+
+    &__ttl {
+      position: relative;
+      z-index: 2;
+    }
+
+    &__ja-ttl {
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: calc(35 / 24);
+      text-align: center;
+      position: relative;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+        line-height: calc(26 / 18);
+      }
+
+      &::after {
+        content: "";
+        width: 6rem;
+        height: 1px;
+        background-image: url(../img/common/ttl_obj.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: -.8rem;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+      }
+    }
+
+    &__list {
+      margin-top: 4.8rem;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        margin-top: 4rem;
+      }
+    }
+
+    &__item {
+      padding-bottom: 1.6rem;
+      border-bottom: solid 1px $color-gray;
+
+      @media (max-width: 767px) {
+        padding-bottom: 1.2rem;
+      }
+
+      &:not(:first-child) {
+        padding-top: 1.6rem;
+
+        @media (max-width: 767px) {
+        padding-top: 1.2rem;
+      }
+      }
+    }
+
+    &__link {
+      color: $color-black;
+    }
+
+    &__tag {
+      border: solid 1px $color-black;
+    }
+
+    &__btn {
+      margin-top: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+}
