@@ -1,0 +1,87 @@
+@use '../foundation/variables' as *;
+
+.c-under-mv {
+  & {
+    padding-top: 22.4rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      padding-top: 8rem;
+    }
+
+    &__en-ttl {
+      font-family: $font-en;
+      font-size: 2.4rem;
+      font-weight: 500;
+      position: relative;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+      }
+
+      &::after {
+        content: "";
+        width: 6rem;
+        height: 1px;
+        background-image: url(../img/common/ttl_obj.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        bottom: -.8rem;
+        left: 0;
+      }
+    }
+
+    &__ja-ttl {
+      font-size: 4.8rem;
+      font-weight: 700;
+      line-height: calc(70 / 48);
+      letter-spacing: .05em;
+      margin-top: 2.4rem;
+
+      @media (max-width: 767px) {
+        font-size: 3.2rem;
+        margin-top: 1.6rem;
+      }
+    }
+
+    &__bg {
+      width: 100vw;
+      height: 56rem;
+      margin-top: 12rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+
+      @media (max-width: 767px) {
+        height: 24rem;
+        margin-top: 8rem;
+      }
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .4);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &--about {
+        background-image: url(../img/about/fv/fv.jpg);
+      }
+
+      &--strengths {
+        background-image: url(../img/strengths/fv/fv.jpg);
+      }
+
+      &--facility {
+        background-image: url(../img/facility/fv/fv.jpg);
+      }
+    }
+  }
+}

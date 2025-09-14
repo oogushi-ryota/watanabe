@@ -16,6 +16,8 @@
 @use "component/btn";
 @use "component/line";
 @use "component/news-link";
+@use "component/breadcrumb";
+@use "component/under-mv";
 
 // Project
 // トップページ
@@ -27,6 +29,9 @@
 @use "project/top/top-facility";
 @use "project/top/top-delivery";
 @use "project/top/top-recruit";
+
+// 会社情報
+@use "project/about/about-fv";
 
 // animation
 @use "animation/js-accordion";

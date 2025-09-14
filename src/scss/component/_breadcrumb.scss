@@ -1,0 +1,59 @@
+@use "foundation/variables" as *;
+
+.c-breadcrumb {
+  & {
+    width: 100%;
+    margin-top: 10rem;
+    padding: 1.8rem 0;
+    background-color: $color-white;
+    border-bottom: solid 1px $color-gray;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      margin-top: 6rem;
+    }
+
+    &__list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 4.4rem;
+
+      @media (max-width: 767px) {
+        gap: 4rem;
+      }
+    }
+
+    &__item {
+      &:not(:last-child) {
+
+        .c-breadcrumb__link {
+          &::after {
+            content: "／";
+            font-family: "Noto Sans JP", sans-serif;
+            font-size: 1.4rem;
+            position: absolute;
+            top: 50%;
+            right: -2.9rem;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+
+            @media (max-width: 767px) {
+              font-size: 1.2rem;
+            }
+          }
+        }
+      }
+    }
+
+    &__link {
+      color: $color-black;
+      font-size: 1.4rem;
+      line-height: 100%;
+      letter-spacing: .03em;
+      position: relative;
+    }
+  }
+}
