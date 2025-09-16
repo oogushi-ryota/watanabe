@@ -1,0 +1,29 @@
+@use '../foundation/variables' as *;
+
+.c-cont-ttl {
+  & {
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: .03em;
+    padding-left: 4.6rem;
+    position: relative;
+
+    @media (max-width: 767px) {
+      font-size: 2rem;
+    }
+
+    &::before {
+      content: "";
+      width: 3rem;
+      height: 2px;
+      background-color: #2196F3;
+      position: absolute;
+      top: 50%;
+      left: 0%;
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+    }
+  }
+}

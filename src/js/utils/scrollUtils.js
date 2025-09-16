@@ -23,11 +23,11 @@ export function initSmoothScroll() {
 // ▼スムーススクロール処理
 export function initAnchorSmoothScroll() {
   const links = document.querySelectorAll('a[href*="#"]');
-  let headerHeight = 9;
+  let headerHeight = 10;
 
   // デバイス幅が375px以下の場合は7.1rem（通常は0rem）
   if (window.innerWidth <= 375) {
-    headerHeight = 7;
+    headerHeight = 6;
   }
 
   links.forEach(link => {

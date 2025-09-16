@@ -19,6 +19,7 @@
 @use "component/breadcrumb";
 @use "component/under-mv";
 @use "component/under-sec-ttl";
+@use "component/cont-ttl";
 
 // Project
 // トップページ
@@ -36,6 +37,14 @@
 @use "project/about/about-philosophy";
 @use "project/about/about-policy";
 @use "project/about/about-company";
+@use "project/about/about-organization";
+@use "project/about/about-factory";
+
+// 4つの強み
+@use "project/strengths/strengths-anchor";
+@use "project/strengths/strengths-shortest";
+@use "project/strengths/strengths-quality";
+@use "project/strengths/strengths-cost";
 
 // animation
 @use "animation/js-accordion";

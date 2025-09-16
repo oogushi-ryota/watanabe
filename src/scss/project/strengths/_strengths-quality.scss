@@ -1,0 +1,58 @@
+@use "foundation/variables" as *;
+
+.p-strengths-quality {
+  & {
+    margin-top: 12rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+    
+    &__inner {
+      background-color: $color-pink;
+      padding: 12rem 17rem;
+
+      @media (max-width: 767px) {
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__wrap {
+      margin-top: 5.6rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem;
+
+      @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+        position: relative;
+        z-index: 2;
+      }
+    }
+
+    &__cont {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: span 3;
+      gap: 4rem;
+
+      @media (max-width: 767px) {
+        gap: 1.6rem;
+      }
+    }
+
+    &__img {
+      width: 53rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &__txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+    }
+  }
+}

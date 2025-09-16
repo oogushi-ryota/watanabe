@@ -1,0 +1,39 @@
+@use "foundation/variables" as *;
+
+.p-about-organization {
+  & {
+    margin-top: 12rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__cont {
+      width: 110rem;
+      margin: 0 auto;
+      padding: 8rem 11rem;
+      background-color: #F9F9F9;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__ttl {
+      position: relative;
+      z-index: 2;
+    }
+
+    &__img {
+      width: 100%;
+      margin-top: 7.2rem;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        margin-top: 4rem;
+      }
+    }
+  }
+}

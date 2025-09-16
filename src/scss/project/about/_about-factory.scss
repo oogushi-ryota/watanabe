@@ -1,0 +1,133 @@
+@use "foundation/variables" as *;
+
+.p-about-factory {
+  & {
+    margin-top: 12rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__cont {
+      width: 110rem;
+      margin: 0 auto;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &__table-wrap {
+      width: 100%;
+
+      @media (max-width: 767px) {
+        overflow-x: scroll;
+      }
+    }
+
+    &__table {
+      display: block;
+      width: 110rem;
+      margin-top: 7.2rem;
+      border: solid 1px $color-gray;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        width: 65.7rem;
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__thead,
+    &__tbody,
+    &__tfoot {
+      display: block;
+      width: 100%;
+
+      tr {
+        display: block;
+        width: 100%;
+      }
+
+      th,
+      td {
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: .05em;
+        padding: 2.2rem 2.4rem;
+
+        @media (max-width: 767px) {
+          padding: 1.6rem;
+        }
+
+        &:nth-of-type(1) {
+          width: 40rem;
+
+          @media (max-width: 767px) {
+            width: 30rem;
+          }
+        }
+
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+          width: 28rem;
+
+          @media (max-width: 767px) {
+            width: 14rem;
+          }
+        }
+
+        &:nth-of-type(4) {
+          width: 14rem;
+
+          @media (max-width: 767px) {
+            width: 8rem;
+          }
+        }
+
+        &:not(:last-of-type) {
+          border-right: solid 1px $color-gray;
+        }
+      }
+    }
+
+    &__tbody,
+    &__tfoot {
+      th,
+      td {
+        &:nth-of-type(2),
+        &:nth-of-type(3) {
+          text-align: right;
+        }
+
+        &:nth-of-type(4) {
+          text-align: center;
+        }
+      }
+    }
+
+    &__thead {
+      tr {
+        border-bottom: solid 1px $color-gray;
+      }
+
+      th {
+        background-color: $color-blue;
+      }
+    }
+
+    &__tbody {
+      tr {
+        background-color: $color-white;
+        border-bottom: solid 1px $color-gray;
+      }
+    }
+
+    &__tfoot {
+      tr {
+        background-color: #F9F9F9;
+      }
+    }
+  }
+}
