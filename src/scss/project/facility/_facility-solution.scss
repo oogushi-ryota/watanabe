@@ -1,0 +1,137 @@
+@use "foundation/variables" as *;
+
+.p-facility-solution {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      padding: 12rem 17rem;
+      background-color: $color-blue;
+
+      @media (max-width: 767px) {
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__details {
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__cont {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        flex-direction: column-reverse;
+      }
+
+      &:not(:first-child) {
+        margin-top: 5.6rem;
+
+        @media (max-width: 767px) {
+          margin-top: 3.2rem;
+        }
+      }
+
+      &:nth-of-type(even) {
+        flex-direction: row-reverse;
+
+        @media (max-width: 767px) {
+          flex-direction: column-reverse;
+        }
+      }
+    }
+
+    &__txtarea {
+      width: 52.8rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__img {
+      width: 50rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &__bottom-cont {
+      height: 23.2rem;
+      margin-top: 8rem;
+      background-image: url(../img/facility/solution/solution_img03.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+
+      @media (max-width: 767px) {
+        height: auto;
+        margin-top: 4rem;
+        padding: 2rem;
+      }
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .6);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &__bottom-cont-ttl {
+      color: $color-white;
+      font-size: 3.2rem;
+      font-weight: 700;
+      line-height: 100%;
+      letter-spacing: .03em;
+      position: relative;
+      z-index: 1;
+
+      @media (max-width: 767px) {
+        font-size: 2rem;
+      }
+    }
+
+    &__bottom-cont-txt {
+      color: $color-white;
+      font-weight: 500;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 2.4rem;
+      position: relative;
+      z-index: 1;
+    }
+  }
+}

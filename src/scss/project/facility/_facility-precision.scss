@@ -1,0 +1,57 @@
+@use "foundation/variables" as *;
+
+.p-facility-precision {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+      padding: 0 2rem;
+    }
+
+    &__inner {
+      padding: 0 0 0 24rem;
+
+      @media (max-width: 767px) {
+        padding: 0;
+      }
+    }
+
+    &__cont {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__txtarea {
+      width: 64rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__txt {
+      font-weight: 500;
+      line-height: 180%;
+      letter-spacing: .05em;
+    }
+
+    &__img {
+      width: 89.7rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+}

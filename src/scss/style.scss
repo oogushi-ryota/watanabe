@@ -46,6 +46,10 @@
 @use "project/strengths/strengths-quality";
 @use "project/strengths/strengths-cost";
 
+// 設備・加工案内
+@use "project/facility/facility-precision";
+@use "project/facility/facility-solution";
+
 // animation
 @use "animation/js-accordion";
 @use "animation/js-nav";
