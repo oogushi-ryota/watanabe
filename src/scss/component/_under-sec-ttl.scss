@@ -1,0 +1,32 @@
+@use '../foundation/variables' as *;
+
+.c-under-sec-ttl {
+  & {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: .03em;
+    text-align: center;
+    position: relative;
+
+    @media (max-width: 767px) {
+      font-size: 2.4rem;
+    }
+
+    &::after {
+      content: "";
+      width: 6rem;
+      height: 1px;
+      background-image: url(../img/common/ttl_obj.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      position: absolute;
+      bottom: -1.6rem;
+      left: 50%;
+      transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+    }
+  }
+}

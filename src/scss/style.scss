@@ -18,6 +18,7 @@
 @use "component/news-link";
 @use "component/breadcrumb";
 @use "component/under-mv";
+@use "component/under-sec-ttl";
 
 // Project
 // トップページ
@@ -31,7 +32,10 @@
 @use "project/top/top-recruit";
 
 // 会社情報
-@use "project/about/about-fv";
+@use "project/about/about-lead";
+@use "project/about/about-philosophy";
+@use "project/about/about-policy";
+@use "project/about/about-company";
 
 // animation
 @use "animation/js-accordion";

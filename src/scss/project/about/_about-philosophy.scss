@@ -1,0 +1,97 @@
+@use "foundation/variables" as *;
+
+.p-about-philosophy {
+  & {
+    margin-top: 12rem;
+    padding: 12rem 0;
+    background-color: #F9F9F9;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+      padding: 8rem 0;
+    }
+
+    &__customers {
+      width: 96rem;
+      background-color: $color-white;
+      margin: 7.2rem auto 0;
+      padding: 4rem 8rem;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 4.8rem;
+        padding: 3.2rem 2rem;
+      }
+    }
+
+    &__customers-ttl {
+      font-size: 2.4rem;
+      line-height: 100%;
+      letter-spacing: .03em;
+      text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 2rem;
+      }
+    }
+
+    &__customers-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4rem;
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.4rem;
+        margin-top: 3.2rem;
+      }
+    }
+
+    &__customers-item {
+      border: solid 1px #2196F3;
+      padding: 2.4rem 1.6rem;
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: span 2;
+      align-items: center;
+      gap: 1.2rem;
+
+      @media (max-width: 767px) {
+        padding: 1.6rem 1.2rem;
+      }
+    }
+
+    &__customers-en-txt {
+      color: #2196F3;
+      font-family: $font-en;
+      font-size: 2rem;
+      line-height: 120%;
+      letter-spacing: .03em;
+      text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__customers-ja-txt {
+      line-height: 150%;
+      letter-spacing: .03em;
+      text-align: center;
+    }
+
+    &__txt {
+      line-height: 180%;
+      letter-spacing: .03em;
+      text-align: center;
+      margin-top: 5.6rem;
+
+      @media (max-width: 767px) {
+        margin-top: 3.2rem;
+      }
+    }
+  }
+}

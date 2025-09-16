@@ -1,0 +1,116 @@
+@use "foundation/variables" as *;
+
+.p-about-policy {
+  & {
+    margin-top: 12rem;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__details {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8rem;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3.2rem;
+      }
+    }
+
+    &__details-item {
+      border: solid 1px $color-gray;
+      padding: 8rem 4rem;
+
+      @media (max-width: 767px) {
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__details-ttl {
+      font-size: 3.2rem;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: .03em;
+      margin-bottom: 4rem;
+      padding-left: 4.6rem;
+      position: relative;
+
+      @media (max-width: 767px) {
+        font-size: 2rem;
+        line-height: 150%;
+        margin-bottom: 2.4rem;
+      }
+
+      &::before {
+        content: "";
+        width: 3rem;
+        height: 2px;
+        background-color: #2196F3;
+        position: absolute;
+        top: 50%;
+        left: 0%;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+      }
+    }
+
+    &__details-olist {
+      margin-top: 2.4rem;
+      padding-left: 2rem;
+      list-style-type: decimal;
+
+      @media (max-width: 767px) {
+        margin-top: 1.6rem;
+      }
+    }
+
+    &__details-olist-item {
+      line-height: 180%;
+      letter-spacing: .03em;
+
+      &:not(:first-child) {
+        margin-top: 2.4rem;
+
+        @media (max-width: 767px) {
+          margin-top: 1.6rem;
+        }
+      }
+    }
+
+    &__details-olist-txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+    }
+
+    &__details-tag {
+      color: #2196F3;
+      line-height: 100%;
+      letter-spacing: .03em;
+      border: solid 1px #2196F3;
+      display: inline-block;
+      margin-top: 2.4rem;
+      padding: .6rem 1.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 1.6rem;
+      }
+    }
+
+    &__details-list {
+      margin-top: 1.2rem;
+      padding-left: 2rem;
+      list-style-type: disc;
+    }
+
+    &__details-list-item {
+      line-height: 180%;
+      letter-spacing: .03em;
+    }
+  }
+}

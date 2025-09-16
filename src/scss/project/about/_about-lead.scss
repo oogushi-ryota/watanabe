@@ -1,0 +1,22 @@
+@use "foundation/variables" as *;
+
+.p-about-lead {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__txt {
+      font-size: 2rem;
+      line-height: 180%;
+      letter-spacing: .03em;
+      text-align: center;
+      margin-top: 7.2rem;
+      padding: 0 13.7rem;
+    }
+  }
+}

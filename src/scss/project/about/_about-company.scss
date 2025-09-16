@@ -1,0 +1,99 @@
+@use "foundation/variables" as *;
+
+.p-about-company {
+  & {
+    margin-top: 12rem;
+    padding: 12rem 0;
+    background-color: $color-blue;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+      padding: 8rem 0;
+    }
+
+    &__table {
+      width: 96rem;
+      margin: 5.6rem auto 0;
+      position: relative;
+      z-index: 2;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin: 4rem auto 0;
+      }
+    }
+
+    &__tr {
+      display: flex;
+      padding-bottom: 2.4rem;
+      border-bottom: solid 1px $color-gray;
+
+      @media (max-width: 767px) {
+        padding-bottom: 1.6rem;
+      }
+
+      &:not(:first-child) {
+        margin-top: 2.4rem;
+
+        @media (max-width: 767px) {
+          margin-top: 1.6rem;
+        }
+      }
+    }
+
+    &__th {
+      font-weight: 500;
+      line-height: 160%;
+      letter-spacing: .03em;
+      text-align: left;
+      width: 25rem;
+      flex-shrink: 0;
+
+      @media (max-width: 767px) {
+        width: 12rem;
+      }
+    }
+
+    &__td {
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: .03em;
+
+      &--location {
+        display: inline-grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+
+        @media (max-width: 767px) {
+          grid-template-columns: repeat(1, 1fr);
+          gap: 2.4rem;
+        }
+      }
+    }
+
+    &__location-ttl {
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: .03em;
+      display: block;
+
+      @media (max-width: 767px) {
+        line-height: 150%;
+      }
+    }
+
+    &__location-access {
+      font-size: 1.6rem;
+      font-weight: 400;
+      line-height: 150%;
+      letter-spacing: .03em;
+      display: inline-block;
+      margin-top: 1.2rem;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+        margin-top: .8rem;
+      }
+    }
+  }
+}
