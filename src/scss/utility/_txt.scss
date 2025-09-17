@@ -1,5 +1,9 @@
 @use "foundation/variables" as *;
 
-.u-fw {
-  
+.u-fs {
+  & {
+    &--14 {
+      font-size: 1.4rem !important;
+    }
+  }
 }

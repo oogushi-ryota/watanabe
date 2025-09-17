@@ -49,10 +49,12 @@
 // 設備・加工案内
 @use "project/facility/facility-precision";
 @use "project/facility/facility-solution";
+@use "project/facility/facility-factory";
 
 // animation
 @use "animation/js-accordion";
 @use "animation/js-nav";
+@use "animation/js-tab";
 
 // Utility
 @use "utility/responsive.scss";

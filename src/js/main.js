@@ -7,6 +7,7 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 // === ユーティリティライブラリ読み込み ===
 import { initSmoothScroll, initAnchorSmoothScroll } from "./utils/scrollUtils.js";
+import { initTabs } from "./utils/tabUtils.js";
 import { initSwiper } from "./utils/swiperUtils.js";
 import { initAccordion } from "./utils/accordionUtils.js";
 import { initScrollFadeIn, initClipPathAnimation, initStaggerFadein } from "./utils/scrollEffects.js";
@@ -27,6 +28,7 @@ window.addEventListener('load', () => {
 // HTMLの構造がすべて解析されて、DOM操作が安全に行える状態になったタイミングで実行
 window.addEventListener('DOMContentLoaded', () => {
   initSwiper();          // ← スワイパー
+  initTabs()            //タブ切り替え
   initAccordion()       //アコーディオン
   initAnchorSmoothScroll();     // ← スムーススクロール
   preventEnterSubmit();
