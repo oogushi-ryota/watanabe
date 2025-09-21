@@ -1,0 +1,81 @@
+@use "foundation/variables" as *;
+
+.p-delivery-speed {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      padding: 0 24rem 0 0;
+
+      @media (max-width: 767px) {
+        padding: 0 2rem;
+      }
+    }
+
+    &__cont {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+      }
+    }
+
+    &__img {
+      width: 89.7rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+
+    &__txtarea {
+      width: 62.3rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 3.2rem;
+      }
+    }
+
+    &__txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__feature {
+      background-color: $color-blue;
+      margin-top: 4rem;
+      padding: 2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+        padding: 1.2rem;
+      }
+    }
+
+    &__feature-txt {
+      line-height: 160%;
+      letter-spacing: .03em;
+    }
+
+    &__feature-note-txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+    }
+  }
+}
