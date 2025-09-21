@@ -1,0 +1,10 @@
+@use "foundation/variables" as *;
+
+.u-txt-align {
+  & {
+    &--center {
+      text-align: center;
+      padding-left: unset !important;
+    }
+  }
+}

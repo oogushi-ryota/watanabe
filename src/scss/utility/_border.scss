@@ -1,0 +1,9 @@
+@use "foundation/variables" as *;
+
+.u-border {
+  & {
+    &--right {
+      border-right: solid 1px $color-gray;
+    }
+  }
+}
