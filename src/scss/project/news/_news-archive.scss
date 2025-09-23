@@ -1,0 +1,132 @@
+@use "foundation/variables" as *;
+
+.p-news-archive {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      width: 110rem;
+      margin: 0 auto;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    &__category-list {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+      gap: 4rem;
+
+      @media (max-width: 767px) {
+        gap: 2rem;
+      }
+    }
+
+    &__category-btn {
+      color: $color-black;
+      font-size: 2.4rem;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: .05em;
+      display: inline-block;
+      padding: 1rem 2.4rem;
+      background-color: $color-white;
+      border: solid 1px $color-black;
+      opacity: .5;
+      transition: all .5s;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+        padding: .8rem 1.2rem;
+      }
+
+      &.is-current {
+        opacity: 1;
+      }
+    }
+
+    &__list {
+      margin-top: 8rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__item {
+      padding-bottom: 2.4rem;
+      border-bottom: solid 1px $color-gray;
+
+      @media (max-width: 767px) {
+        padding-bottom: 1.2rem;
+      }
+
+      &:not(:first-child) {
+        margin-top: 2.4rem;
+
+        @media (max-width: 767px) {
+          margin-top: 1.2rem;
+        }
+      }
+    }
+
+    &__link {
+      color: $color-black;
+    }
+
+    &__tag {
+      border: solid 1px $color-black;
+    }
+
+    &__pagination {
+      margin-top: 8rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+        gap: 1rem;
+      }
+
+      .page-numbers {
+        color: $color-black;
+        font-size: 2rem;
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+
+        @media (max-width: 767px) {
+          font-size: 1.6rem;
+          width: 3.2rem;
+          height: 3.2rem;
+        }
+
+        &.current {
+          background-color: $color-white;
+          border: solid 1px $color-black;
+        }
+
+        &.prev,
+        &.next {
+          width: auto;
+          height: auto;
+        }
+      }
+    }
+  }
+}

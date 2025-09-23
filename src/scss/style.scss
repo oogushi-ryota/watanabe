@@ -56,6 +56,9 @@
 @use "project/delivery/delivery-speed";
 @use "project/delivery/delivery-schedule";
 
+// お知らせ
+@use "project/news/news-archive";
+
 // animation
 @use "animation/js-accordion";
 @use "animation/js-nav";

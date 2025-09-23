@@ -15,27 +15,398 @@
   <title>テスト</title>
 
   <link rel="icon" href="./assets/img/favicon.ico">
-  <link rel="stylesheet" href="./assets/css/style.min.css">
+  <link rel="stylesheet" href="../assets/css/style.min.css">
 
   <!-- フォント読み込み -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 
-<body class="p-top">
+<body class="p-news">
   <header class="l-header">
-    
+    <div class="l-header__inner">
+      <div class="l-header__cont">
+        <a href="" class="l-header__logo-link">
+          <picture class="l-header__logo">
+            <source srcset="../assets/img/common/logo_sp.png" media="(max-width: 767px)">
+            <img src="../assets/img/common/logo_pc.svg" width="355" height="51" alt="株式会社ワタナベ 自社でワイヤーカット加工機100台保有。金型加工のワタナベ。">
+          </picture>
+        </a>
+        <div class="l-header__hamburger js-nav-btn">
+          <span class="l-header__hamburger-line"></span>
+          <span class="l-header__hamburger-line"></span>
+          <span class="l-header__hamburger-line"></span>
+        </div>
+        <nav class="l-header__nav js-nav">
+          <ul class="l-header__nav-list">
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">会社情報</a>
+            </li>
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">4つの強み</a>
+            </li>
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">設備・加工案内</a>
+            </li>
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">納期案内</a>
+            </li>
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">採用情報</a>
+            </li>
+            <li class="l-header__nav-item">
+              <a href="" class="l-header__nav-link">お知らせ</a>
+            </li>
+            <li class="l-header__nav-item l-header__contact">
+              <a href="" class="l-header__nav-link l-header__contact-btn">
+                <svg class="l-header__svg" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.39779 11.3327C1.03112 11.3327 0.717342 11.2022 0.456453 10.9413C0.195564 10.6805 0.0648976 10.3665 0.0644531 9.99935V1.99935C0.0644531 1.63268 0.19512 1.3189 0.456453 1.05802C0.717787 0.797127 1.03156 0.66646 1.39779 0.666016H12.0645C12.4311 0.666016 12.7451 0.796682 13.0065 1.05802C13.2678 1.31935 13.3982 1.63313 13.3978 1.99935V9.99935C13.3978 10.366 13.2673 10.68 13.0065 10.9413C12.7456 11.2027 12.4316 11.3331 12.0645 11.3327H1.39779ZM12.0645 3.33268L7.08112 6.44935C7.02556 6.48268 6.96734 6.50779 6.90645 6.52468C6.84556 6.54157 6.78712 6.54979 6.73112 6.54935C6.67512 6.5489 6.6169 6.54068 6.55645 6.52468C6.49601 6.50868 6.43756 6.48357 6.38112 6.44935L1.39779 3.33268V9.99935H12.0645V3.33268ZM6.73112 5.33268L12.0645 1.99935H1.39779L6.73112 5.33268ZM1.39779 3.49935V2.51602V2.53268V2.52468V3.49935Z" fill="white"/>
+                </svg>
+                お問い合わせ
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </header>
 
   <main class="l-main">
-    <section class="p-top-fv">
-      
+    <span class="c-line"></span>
+
+    <div class="c-breadcrumb">
+      <div class="c-inner">
+        <ul class="c-breadcrumb__list">
+          <li class="c-breadcrumb__item">
+            <a href="" class="c-breadcrumb__link">トップ</a>
+          </li>
+          <li class="c-breadcrumb__item">
+            <a href="" class="c-breadcrumb__link">お知らせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="c-under-mv">
+      <div class="c-inner">
+        <div class="c-under-mv__ttl">
+          <span class="c-under-mv__en-ttl">news</span>
+          <h1 class="c-under-mv__ja-ttl">お知らせ</h1>
+        </div>
+      </div>
+      <div class="c-under-mv__bg c-under-mv__bg--news"></div>
     </section>
-    
+
+    <section class="p-news-archive">
+      <div class="p-news-archive__inner">
+        <ul class="p-news-archive__category-list">
+          <li class="p-news-archive__category-item">
+            <a href="" class="p-news-archive__category-btn is-current">すべて</a>
+          </li>
+          <li class="p-news-archive__category-item">
+            <a href="" class="p-news-archive__category-btn">設備投資のお知らせ</a>
+          </li>
+          <li class="p-news-archive__category-item">
+            <a href="" class="p-news-archive__category-btn">加工機校正のお知らせ</a>
+          </li>
+        </ul>
+        <ul class="p-news-archive__list">
+          <li class="p-news-archive__item">
+            <a href="" class="p-news-archive__link c-news-link">
+              <span class="p-news-archive__link-head c-news-link__head">
+                <time class="p-news-archive__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
+                <span class="p-news-archive__tag c-news-link__tag">展示会</span>
+              </span>
+              <h3 class="p-news-archive__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+            </a>
+          </li>
+          <li class="p-news-archive__item">
+            <a href="" class="p-news-archive__link c-news-link">
+              <span class="p-news-archive__link-head c-news-link__head">
+                <time class="p-news-archive__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
+                <span class="p-news-archive__tag c-news-link__tag">福島第二工場</span>
+              </span>
+              <h3 class="p-news-archive__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+            </a>
+          </li>
+          <li class="p-news-archive__item">
+            <a href="" class="p-news-archive__link c-news-link">
+              <span class="p-news-archive__link-head c-news-link__head">
+                <time class="p-news-archive__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
+                <span class="p-news-archive__tag c-news-link__tag">座間工場</span>
+              </span>
+              <h3 class="p-news-archive__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+            </a>
+          </li>
+          <li class="p-news-archive__item">
+            <a href="" class="p-news-archive__link c-news-link">
+              <span class="p-news-archive__link-head c-news-link__head">
+                <time class="p-news-archive__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
+                <span class="p-news-archive__tag c-news-link__tag">座間工場</span>
+              </span>
+              <h3 class="p-news-archive__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+            </a>
+          </li>
+          <li class="p-news-archive__item">
+            <a href="" class="p-news-archive__link c-news-link">
+              <span class="p-news-archive__link-head c-news-link__head">
+                <time class="p-news-archive__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
+                <span class="p-news-archive__tag c-news-link__tag">座間工場</span>
+              </span>
+              <h3 class="p-news-archive__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+            </a>
+          </li>
+        </ul>
+        <div class="p-news-archive__pagination">
+          <span class="prev page-numbers disabled">前へ</span>
+          <span aria-current="page" class="page-numbers current">1</span>
+          <a class="page-numbers" href="">2</a>
+          <a class="page-numbers" href="">3</a>
+          <span class="page-numbers dots">…</span>
+          <a class="page-numbers" href="">8</a>
+          <a class="next page-numbers" href="">次へ</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="c-contact">
+      <div class="c-contact__inner">
+        <div class="c-contact__cont">
+          <div class="c-contact__ttlarea">
+            <span class="c-contact__en-ttl">CONTACT</span>
+            <h2 class="c-contact__ja-ttl">お問い合わせ</h2>
+          </div>
+          <p class="c-contact__txt">
+            ワイヤーカット加工に関するご相談・お見積もりはお気軽にご連絡ください。<br>
+            全国対応・迅速対応（原則6～12時間以内）いたします。
+          </p>
+          <div class="c-contact__btn-wrap">
+            <a href="" class="c-contact__btn">お問い合わせはこちら</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="l-footer">
-    <small class="l-footer__small"></small>
+    <div class="l-footer__inner">
+      <div class="c-inner">
+        <div class="l-footer__head">
+          <picture class="l-footer__logo">
+            <source srcset="../assets/img/footer/logo.webp" type="image/webp">
+            <img src="../assets/img/footer/logo.png" width="200" height="27" alt="株式会社ワタナベのロゴ">
+          </picture>
+          <nav class="l-footer__nav">
+            <ul class="l-footer__nav-list">
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">会社情報</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">4つの強み</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">設備・加工案内</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">納期案内</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">採用情報</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">お知らせ</a>
+              </li>
+              <li class="l-footer__nav-item">
+                <a href="" class="l-footer__nav-link">お問い合わせ</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="l-footer__branch">
+          <ul class="l-footer__branch-list">
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">本社</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img01.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img01.jpg" width="380" height="214" alt="本社の画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒222-0033</span>
+                  <span class="l-footer__branch-address">神奈川県横浜市港北区新横浜1-29-5</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">045-471-7300</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">045-471-7330</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">東京東営業所</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img02.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img02.jpg" width="380" height="214" alt="本社の画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒270-2261</span>
+                  <span class="l-footer__branch-address">千葉県松戸市常盤平3-9-6</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">047-382-6766</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">047-382-6767</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">神奈川ワイヤー加工センター</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img03.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img03.jpg" width="380" height="214" alt="神奈川ワイヤー加工センターの画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒252-0002</span>
+                  <span class="l-footer__branch-address">神奈川県座間市小松原1-14-7</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">046-244-6976</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">046-258-0027</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">福島ワイヤー加工センター第一工場</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img04.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img04.jpg" width="380" height="214" alt="神奈川ワイヤー加工センターの画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒964-0203</span>
+                  <span class="l-footer__branch-address">福島県二本松市木幡字平15-5</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">0243-46-3811</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">0243-46-3886</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">福島ワイヤー加工センター第二工場</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img05.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img05.jpg" width="380" height="214" alt="神奈川ワイヤー加工センターの画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒960-1231</span>
+                  <span class="l-footer__branch-address">福島県福島市松川町沼袋字北 383-10</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">0245-73-8700</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">0245-73-8701</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li class="l-footer__branch-item">
+              <div class="l-footer__branch-wrap">
+                <div class="l-footer__branch-head">
+                  <span class="l-footer__branch-name">中部ワイヤー加工センター</span>
+                  <a href="" class="l-footer__branch-map">
+                    <svg class="l-footer__branch-svg" width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M6.92267 17.5502L6.92567 17.5512C7.12267 17.6372 7.23267 17.6172 7.23267 17.6172C7.23267 17.6172 7.34267 17.6372 7.54067 17.5512L7.54267 17.5502L7.54867 17.5472L7.56667 17.5392C7.66154 17.495 7.75524 17.4483 7.84767 17.3992C8.03367 17.3032 8.29367 17.1592 8.60467 16.9662C9.22467 16.5822 10.0497 16.0002 10.8787 15.2012C12.5347 13.6052 14.2327 11.1102 14.2327 7.61719C14.2327 6.69793 14.0516 5.78768 13.6998 4.9384C13.348 4.08912 12.8324 3.31745 12.1824 2.66744C11.5324 2.01743 10.7607 1.50181 9.91145 1.15003C9.06217 0.798248 8.15192 0.617188 7.23267 0.617188C6.31341 0.617188 5.40316 0.798248 4.55388 1.15003C3.7046 1.50181 2.93293 2.01743 2.28292 2.66744C1.63291 3.31745 1.11729 4.08912 0.765509 4.9384C0.413726 5.78768 0.232666 6.69793 0.232666 7.61719C0.232666 11.1092 1.93067 13.6052 3.58767 15.2012C4.28127 15.8677 5.04314 16.4593 5.86067 16.9662C6.17738 17.1626 6.50306 17.3441 6.83667 17.5102L6.89867 17.5392L6.91667 17.5472L6.92267 17.5502ZM7.23267 9.86719C7.8294 9.86719 8.4017 9.63013 8.82366 9.20818C9.24561 8.78622 9.48267 8.21392 9.48267 7.61719C9.48267 7.02045 9.24561 6.44815 8.82366 6.0262C8.4017 5.60424 7.8294 5.36719 7.23267 5.36719C6.63593 5.36719 6.06363 5.60424 5.64168 6.0262C5.21972 6.44815 4.98267 7.02045 4.98267 7.61719C4.98267 8.21392 5.21972 8.78622 5.64168 9.20818C6.06363 9.63013 6.63593 9.86719 7.23267 9.86719Z" fill="white"/>
+                    </svg>
+                    <span class="l-footer__branch-map-txt">Google map</span>
+                  </a>
+                </div>
+                <picture class="l-footer__branch-img">
+                  <source srcset="../assets/img/footer/branch_img06.webp" type="image/webp">
+                  <img src="../assets/img/footer/branch_img06.jpg" width="380" height="214" alt="神奈川ワイヤー加工センターの画像">
+                </picture>
+                <div class="l-footer__branch-details">
+                  <span class="l-footer__branch-postcode">〒442-0016</span>
+                  <span class="l-footer__branch-address">愛知県豊川市美幸町1-23</span>
+                  <span class="l-footer__branch-tel">
+                    <span class="l-footer__branch-s-txt">TEL</span>
+                    <span class="l-footer__branch-tel-num">0533-75-6800</span>
+                  </span>
+                  <span class="l-footer__branch-fax">
+                    <span class="l-footer__branch-s-txt">FAX</span>
+                    <span class="l-footer__branch-fax-num">0533-89-3890</span>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <small class="l-footer__small">©株式会社ワタナベ All Rights Reserved.</small>
   </footer>
 
-  <script type="module" src="assets/js/main.min.js"></script>
+  <script type="module" src="../assets/js/main.min.js"></script>
 </body>
 </html>
