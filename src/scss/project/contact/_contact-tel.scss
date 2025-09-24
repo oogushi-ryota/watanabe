@@ -1,0 +1,118 @@
+@use "foundation/variables" as *;
+
+.p-contact-tel {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      width: 110rem;
+      margin: 0 auto;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    &__cont {
+      background-color: $color-blue;
+      padding: 8rem 10rem;
+
+      @media (max-width: 767px) {
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__list {
+      margin-top: 7.2rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    &__item {
+      background-color: $color-white;
+      padding: 2.4rem;
+
+      @media (max-width: 767px) {
+        padding: 1.6rem;
+      }
+    }
+
+    &__item-ttl {
+      font-size: 2rem;
+      letter-spacing: .03em;
+      line-height: 100%;
+      display: block;
+
+      @media (max-width: 767px) {
+        font-size: 1.6rem;
+      }
+    }
+
+    &__info {
+      margin-top: 1.6rem;
+
+      @media (max-width: 767px) {
+        margin-top: .8rem;
+      }
+    }
+
+    &__info-tel,
+    &__info-fax {
+      font-size: 2.2rem;
+      line-height: 100%;
+      letter-spacing: .03em;
+      margin-top: .4rem;
+      display: block;
+
+      @media (max-width: 767px) {
+        font-size: 1.8rem;
+      }
+    }
+
+    &__info-tel {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: .8rem;
+
+      @media (max-width: 767px) {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: .4rem;
+      }
+    }
+
+    &__info-tel-manager {
+      font-size: 1.6rem;
+      font-weight: 400;
+      letter-spacing: .03em;
+      line-height: 150%;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    &__info-mail {
+      font-weight: 400;
+      letter-spacing: .03em;
+      line-height: 100%;
+      display: block;
+      margin-top: 1.2rem;
+    }
+  }
+}

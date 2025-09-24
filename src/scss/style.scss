@@ -60,6 +60,10 @@
 @use "project/news/news-archive";
 @use "project/news/news-details";
 
+// お問い合わせ
+@use "project/contact/contact-tel";
+@use "project/contact/contact-form";
+
 // animation
 @use "animation/js-accordion";
 @use "animation/js-nav";
