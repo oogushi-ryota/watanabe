@@ -1,0 +1,46 @@
+@use "foundation/variables" as *;
+
+.p-recruit-lead {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      width: 96rem;
+      margin: 0 auto;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    &__ttl {
+      font-size: 4rem;
+      font-weight: 500;
+      line-height: 180%;
+      letter-spacing: .03em;
+      text-align: center;
+
+      @media (max-width: 767px) {
+        font-size: 2.4rem;
+      }
+    }
+
+    &__txt {
+      line-height: 180%;
+      letter-spacing: .03em;
+      text-align: center;
+      margin-top: 5.6rem;
+
+      @media (max-width: 767px) {
+        margin-top: 3.2rem;
+      }
+    }
+  }
+}

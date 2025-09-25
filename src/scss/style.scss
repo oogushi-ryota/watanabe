@@ -56,6 +56,12 @@
 @use "project/delivery/delivery-speed";
 @use "project/delivery/delivery-schedule";
 
+// 採用情報
+@use "project/recruit/recruit-lead";
+@use "project/recruit/recruit-data";
+@use "project/recruit/recruit-requirements";
+@use "project/recruit/recruit-apply";
+
 // お知らせ
 @use "project/news/news-archive";
 @use "project/news/news-details";
