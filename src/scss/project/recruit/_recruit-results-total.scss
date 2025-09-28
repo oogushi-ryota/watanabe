@@ -1,0 +1,97 @@
+@use "foundation/variables" as *;
+
+.p-recruit-results-total {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__bg {
+      padding: 12rem 0;
+      background-color: $color-blue;
+
+      @media (max-width: 767px) {
+        padding: 4rem 2rem;
+      }
+    }
+
+    &__details {
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__wrap {
+      margin-top: 4rem;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+        grid-template-columns: repeat(1, 1fr);
+        overflow-x: auto;
+      }
+    }
+
+    &__table {
+      width: 100%;
+      border: solid 1px $color-gray;
+    }
+
+    &__thead {
+      background-color: #9CCBF1;
+      height: 5.6rem;
+      border-bottom: solid 1px $color-gray;
+
+      th {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: .03em;
+        vertical-align: middle;
+        min-width: 16rem;
+        border-right: solid 1px $color-gray;
+
+        @media (max-width: 767px) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    &__tbody {
+      tr {
+        height: 4.8rem;
+
+        &:not(:last-child) {
+          border-bottom: solid 1px $color-gray;
+        }
+      }
+
+      td {
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: .03em;
+        white-space: nowrap;
+        vertical-align: middle;
+        border-right: solid 1px $color-gray;
+        padding: 0 1.2rem;
+
+        @media (max-width: 767px) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    &__tbody-bg {
+      background-color: #F9F9F9;
+    }
+  }
+}

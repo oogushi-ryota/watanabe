@@ -1,0 +1,99 @@
+@use "foundation/variables" as *;
+
+.p-recruit-results-lastyear {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__table-wrap {
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+        overflow-x: auto;
+      }
+    }
+
+    &__table {
+      width: 100%;
+      border: solid 1px $color-gray;
+
+      @media (max-width: 767px) {
+        width: 72rem;
+      }
+    }
+
+    &__thead {
+      background-color: $color-blue;
+      border-bottom: solid 1px $color-gray;
+      height: 6rem;
+
+      th {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: .03em;
+        vertical-align: middle;
+        width: 25rem;
+        border-right: solid 1px $color-gray;
+
+        @media (max-width: 767px) {
+          font-size: 1.6rem;
+          width: 18rem;
+        }
+
+        &:first-child {
+          width: 35.1rem;
+
+          @media (max-width: 767px) {
+            width: auto;
+          }
+        }
+      }
+    }
+
+    &__tbody {
+      tr {
+        height: 4.8rem;
+        background-color: $color-white;
+      }
+
+      td {
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 100%;
+        letter-spacing: .03em;
+        text-align: center;
+        vertical-align: middle;
+        border-bottom: solid 1px $color-gray;
+
+        @media (max-width: 767px) {
+          font-size: 1.6rem;
+        }
+
+        &:not(:last-child) {
+          border-right: solid 1px $color-gray;
+        }
+      }
+    }
+
+    &__tfoot {
+      background-color: #F9F9F9;
+      height: 4.8rem;
+
+      td {
+        text-align: center;
+        vertical-align: middle;
+
+        &:not(:last-child) {
+          border-right: solid 1px $color-gray;
+        }
+      }
+    }
+  }
+}
