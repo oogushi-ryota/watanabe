@@ -24,7 +24,7 @@
     }
 
     &::before {
-      right: 55rem;
+      right: 36rem;
 
       @media (max-width: 767px) {
         right: 16.8rem;
@@ -32,10 +32,26 @@
     }
 
     &::after {
-      left: 55rem;
+      left: 36rem;
 
       @media (max-width: 767px) {
         left: 16.8rem;
+      }
+    }
+
+    &--2 {
+      width: 0;
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+
+      &::before {
+        right: 72rem;
+      }
+
+      &::after {
+        left: 72rem;
       }
     }
   }

@@ -10,16 +10,6 @@
       margin-top: 8rem;
     }
 
-    &__inner {
-      width: 110rem;
-      margin: 0 auto;
-
-      @media (max-width: 767px) {
-        width: 100%;
-        padding: 0 2rem;
-      }
-    }
-
     &__ttl {
       font-size: 4rem;
       font-weight: 700;
