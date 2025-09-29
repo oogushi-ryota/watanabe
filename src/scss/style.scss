@@ -39,13 +39,15 @@
 @use "project/about/about-company";
 @use "project/about/about-organization";
 @use "project/about/about-factory";
+@use "project/about/about-client";
 
-// 4つの強み
+// 5つの強み
 @use "project/strengths/strengths-anchor";
 @use "project/strengths/strengths-shortest";
 @use "project/strengths/strengths-quality";
 @use "project/strengths/strengths-cost";
 @use "project/strengths/strengths-variable";
+@use "project/strengths/strengths-sustainability";
 
 // 設備・加工案内
 @use "project/facility/facility-precision";

@@ -86,12 +86,21 @@
     &__txt {
       line-height: 180%;
       letter-spacing: .03em;
-      text-align: center;
-      margin-top: 5.6rem;
+      margin-top: 3.2rem;
+      padding: 4rem 6rem;
+      border: solid 1px $color-gray;
 
       @media (max-width: 767px) {
-        margin-top: 3.2rem;
+        padding: 2rem;
       }
+    }
+
+    &__color-txt {
+      color: #2196F3;
+    }
+
+    &__customers-bottom {
+      margin-top: 4rem;
     }
   }
 }

@@ -1,0 +1,34 @@
+@use "foundation/variables" as *;
+
+.p-about-client {
+  & {
+    margin-top: 12rem;
+    position: relative;
+    z-index: 2;
+
+    @media (max-width: 767px) {
+      margin-top: 8rem;
+    }
+
+    &__inner {
+      width: 96rem;
+      margin: 0 auto;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        padding: 0 2rem;
+      }
+    }
+
+    &__txt {
+      text-align: center;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@use "foundation/variables" as *;
+
+.p-strengths-sustainability {
+  & {
+    margin-top: 8rem;
+    position: relative;
+    z-index: 2;
+
+    &__details {
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__cont {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+
+      @media (max-width: 767px) {
+        flex-direction: column-reverse;
+      }
+
+      &:not(:first-child) {
+        margin-top: 1.6rem;
+
+        @media (max-width: 767px) {
+          margin-top: 3.2rem;
+        }
+      }
+
+      &:nth-of-type(even) {
+        flex-direction: row-reverse;
+
+        @media (max-width: 767px) {
+          flex-direction: column-reverse;
+        }
+      }
+    }
+
+    &__txtarea {
+      width: 52.8rem;
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__txt {
+      font-weight: 400;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 4rem;
+
+      @media (max-width: 767px) {
+        margin-top: 2.4rem;
+      }
+    }
+
+    &__img {
+      width: 50rem;
+
+      @media (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+}
