@@ -3,8 +3,6 @@
 .p-strengths-quality {
   & {
     margin-top: 12rem;
-    position: relative;
-    z-index: 2;
 
     @media (max-width: 767px) {
       margin-top: 8rem;
@@ -24,6 +22,8 @@
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       gap: 4rem;
+      position: relative;
+      z-index: 2;
 
       @media (max-width: 767px) {
         grid-template-columns: repeat(1, 1fr);
