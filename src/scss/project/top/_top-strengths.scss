@@ -14,13 +14,13 @@
     &::after {
       content: "";
       width: 50vw;
-      height: 69.6rem;
+      height: 107.2rem;
       position: absolute;
       bottom: -12rem;
       z-index: -1;
 
       @media (max-width: 767px) {
-        height: 69.6rem;
+        height: 90rem;
         bottom: -8rem;
       }
     }
@@ -89,6 +89,10 @@
 
       &--quality {
         background-image: url(../img/top/strengths/strengths_img04.jpg);
+      }
+
+      &--sustainability {
+        background-image: url(../img/top/strengths/strengths_img05.jpg);
       }
     }
 
