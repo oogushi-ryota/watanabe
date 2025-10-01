@@ -3,11 +3,13 @@
 .p-contact-form {
   & {
     margin-top: 12rem;
+    padding-bottom: 12rem;
     position: relative;
     z-index: 2;
 
     @media (max-width: 767px) {
       margin-top: 8rem;
+      padding-bottom: 8rem;
     }
 
     &__inner {
