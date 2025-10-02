@@ -24,16 +24,43 @@ Template Name: トップページ
       <section class="p-top-news">
         <div class="c-inner">
           <div class="p-top-news__cont">
+            <?php
+            $args = array(
+              'post_type'      => 'post',       // 投稿タイプ（お知らせ）
+              'posts_per_page' => 1,            // 最新1件だけ
+              'orderby'        => 'date',       // 日付順
+              'order'          => 'DESC'        // 新しい順
+            );
+            $the_query = new WP_Query($args);
+            if ( $the_query->have_posts() ) :
+              while ( $the_query->have_posts() ) : $the_query->the_post();
+            ?>
             <div class="p-top-news__details">
               <h2 class="p-top-news__ttl">News</h2>
               <a href="<?php the_permalink(); ?>" class="p-top-news__link c-news-link">
                 <span class="p-top-news__link-head c-news-link__head">
-                  <time class="p-top-news__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
-                  <span class="p-top-news__tag c-news-link__tag">展示会</span>
+                  <time class="p-top-news__time c-news-link__time" datetime="<?php echo get_the_date('c'); ?>"><?php echo get_the_date('Y.m.d'); ?></time>
+                  <?php
+                  $tags = get_the_tags();
+                  if ( $tags ) :
+                    foreach ( $tags as $tag ) :
+                  ?>
+                    <span class="p-top-news__tag c-news-link__tag tag-<?php echo esc_attr( $tag->slug ); ?>">
+                      <?php echo esc_html( $tag->name ); ?>
+                    </span>
+                  <?php
+                    endforeach;
+                  endif;
+                  ?>
                 </span>
-                <h3 class="p-top-news__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+                <h3 class="p-top-news__details-ttl c-news-link__ttl"><?php the_title(); ?></h3>
               </a>
             </div>
+            <?php
+              endwhile;
+              wp_reset_postdata();
+            endif;
+            ?>
             <div class="p-top-news__btn">
               <a href="<?php echo esc_url( home_url( '/news/' ) ); ?>" class="c-btn">
                 <span class="c-btn__txt">お知らせ一覧を見る</span>
@@ -54,37 +81,52 @@ Template Name: トップページ
             <div class="p-top-notice__ttl">
               <h2 class="p-top-notice__ja-ttl">設備投資のお知らせ</h2>
             </div>
-            <ul class="p-top-notice__list">
+
+            <?php
+            $args = array(
+              'post_type'      => 'post',
+              'posts_per_page' => 10, // 最大10件
+              'orderby'        => 'date',
+              'order'          => 'DESC',
+              'category_name'  => 'equipment', 
+            );
+            $the_query = new WP_Query($args);
+            if ( $the_query->have_posts() ) :
+              echo '<ul class="p-top-notice__list">';
+              while ( $the_query->have_posts() ) : $the_query->the_post();
+            ?>
               <li class="p-top-notice__item">
                 <a href="<?php the_permalink(); ?>" class="p-top-notice__link c-news-link">
                   <span class="p-top-notice__link-head c-news-link__head">
-                    <time class="p-top-notice__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
-                    <span class="p-top-notice__tag c-news-link__tag">座間工場</span>
+                    <time class="p-top-notice__time c-news-link__time" datetime="<?php echo get_the_date('c'); ?>">
+                      <?php echo get_the_date('Y.m.d'); ?>
+                    </time>
+                    <?php
+                    $tags = get_the_tags();
+                    if ( $tags ) :
+                      foreach ( $tags as $tag ) :
+                    ?>
+                      <span class="p-top-notice__tag c-news-link__tag tag-<?php echo esc_attr($tag->slug); ?>">
+                        <?php echo esc_html($tag->name); ?>
+                      </span>
+                    <?php
+                      endforeach;
+                    endif;
+                    ?>
                   </span>
-                  <h3 class="p-top-notice__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
+                  <h3 class="p-top-notice__details-ttl c-news-link__ttl"><?php the_title(); ?></h3>
                 </a>
               </li>
-              <li class="p-top-notice__item">
-                <a href="<?php the_permalink(); ?>" class="p-top-notice__link c-news-link">
-                  <span class="p-top-notice__link-head c-news-link__head">
-                    <time class="p-top-notice__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
-                    <span class="p-top-notice__tag c-news-link__tag">中部工場</span>
-                  </span>
-                  <h3 class="p-top-notice__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
-                </a>
-              </li>
-              <li class="p-top-notice__item">
-                <a href="<?php the_permalink(); ?>" class="p-top-notice__link c-news-link">
-                  <span class="p-top-notice__link-head c-news-link__head">
-                    <time class="p-top-notice__time c-news-link__time" datetime="2025.00.00">2025.00.00</time>
-                    <span class="p-top-notice__tag c-news-link__tag">福島第二工場</span>
-                  </span>
-                  <h3 class="p-top-notice__details-ttl c-news-link__ttl">記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。</h3>
-                </a>
-              </li>
-            </ul>
+            <?php
+              endwhile;
+              echo '</ul>';
+              wp_reset_postdata();
+            else :
+              echo '<p>設備投資のお知らせはまだありません。</p>';
+            endif;
+            ?>
             <div class="p-top-notice__btn">
-              <a href="<?php echo esc_url( home_url( '/news/' ) ); ?>" class="c-btn">
+              <a href="<?php echo esc_url( home_url( '/category/equipment/' ) ); ?>" class="c-btn">
                 <span class="c-btn__txt">全て見る</span>
                 <span class="c-btn__svg-wrap">
                   <svg class="c-btn__svg" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">

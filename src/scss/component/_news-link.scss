@@ -18,8 +18,12 @@
       display: flex;
       align-items: center;
       justify-content: flex-start;
-      gap: 1.6rem;
+      gap: 2.4rem;
       flex-shrink: 0;
+
+      @media (max-width: 767px) {
+        gap: 1.6rem;
+      }
     }
     
     &__time {
@@ -34,11 +38,12 @@
     }
 
     &__tag {
+      color: #FF5722;
       font-weight: 400;
       font-size: 1.4rem;
       line-height: 100%;
       letter-spacing: .03em;
-      padding: 0.6rem 1.2rem 0.4rem;
+      padding: 0.3rem 1.2rem 0.4rem;
       flex-shrink: 0;
 
       @media (max-width: 767px) {
