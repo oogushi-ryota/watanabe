@@ -21,3 +21,12 @@ export function preventEnterSubmit({
   }
 }
 // ▲全フォーム共通でEnter送信を防止
+
+export function addCompleteClass() {
+  const formComplete = document.querySelector(".mw_wp_form_complete");
+  const target = document.querySelector(".p-contact-tel");
+
+  if (formComplete && target) {
+    target.classList.add("is-complete");
+  }
+}

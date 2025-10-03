@@ -91,12 +91,14 @@ function mvwpform_autop_filter()
 }
 mvwpform_autop_filter();
 
-//MW WP Formの管理画面でホームURLを返す
-function my_mwform_complete_message( $message, $form_key, $insert_id ) {
-	$message = str_replace( '{home_url}', esc_url( home_url( '/' ) ), $message );
-	return $message;
+// MW WP Form のショートコードに独自変数を追加
+function my_mwform_custom_shortcode( $shortcode, $atts, $content, $form_key ) {
+	if ( $shortcode === 'home_url' ) {
+			return esc_url( home_url( '/' ) );
+	}
+	return $shortcode;
 }
-add_filter( 'mwform_complete_message_mw-wp-form-45', 'my_mwform_complete_message', 10, 3 );
+add_filter( 'mwform_shortcode_mw-wp-form-42', 'my_mwform_custom_shortcode', 10, 4 );
 
 // 404ページをトップにリダイレクト
 add_action('template_redirect', function() {

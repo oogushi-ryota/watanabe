@@ -12,7 +12,7 @@ import { initSwiper } from "./utils/swiperUtils.js";
 import { initAccordion } from "./utils/accordionUtils.js";
 import { initScrollFadeIn, initClipPathAnimation, initStaggerFadein } from "./utils/scrollEffects.js";
 import { initHamburgerMenu, initScrollHeader } from "./utils/hamburgerUtils.js";
-import { preventEnterSubmit } from "./utils/formUtils.js";
+import { preventEnterSubmit, addCompleteClass } from "./utils/formUtils.js";
 import { animateInitialTextSplit, animateSplitTextOnScroll } from "./utils/splitTextUtils.js";
 
 // ▼GSAP に ScrollTrigger を登録
@@ -38,4 +38,5 @@ window.addEventListener('DOMContentLoaded', () => {
     closeTargetSelector: ".l-header__nav-item a",
   });
   initScrollHeader();
+  addCompleteClass();
 });
