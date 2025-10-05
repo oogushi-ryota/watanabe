@@ -45,6 +45,7 @@
         @media (max-width: 767px) {
           font-size: 1.6rem;
           width: 18rem;
+          padding: 2rem 0;
         }
 
         &:first-child {
@@ -92,6 +93,10 @@
 
         &:not(:last-child) {
           border-right: solid 1px $color-gray;
+        }
+
+        @media (max-width: 767px) {
+          padding: 1rem 0;
         }
       }
     }

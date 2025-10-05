@@ -19,7 +19,7 @@ Template Name: お知らせ詳細
             <a href="<?php echo esc_url( home_url( '/news' ) ); ?>" class="c-breadcrumb__link">お知らせ</a>
           </li>
           <li class="c-breadcrumb__item">
-            <span class="c-breadcrumb__link">お知らせのタイトルが入ります</span>
+            <span class="c-breadcrumb__link"><?php the_title(); ?></span>
           </li>
         </ul>
       </div>
