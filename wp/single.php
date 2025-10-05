@@ -41,8 +41,20 @@ Template Name: お知らせ詳細
           <div class="p-news-details__ttlarea">
             <h2 class="p-news-details__ttl"><?php the_title(); ?></h2>
             <div class="p-news-details__ttl-bottom">
-              <time datetime="<?php echo get_the_date( 'c' ); ?>" class="p-news-details__time"><?php echo get_the_date( get_option( 'date_format' ) ); ?></time>
-              <span class="p-news-details__tag">展示会</span>
+              <time datetime="<?php echo get_the_date( 'c' ); ?>" class="p-news-details__time"><?php echo get_post_time('Y.m.d'); ?></time>
+              <?php
+              $tags = get_the_tags();
+              if ( $tags && ! is_wp_error( $tags ) ) :
+                foreach ( $tags as $tag ) : ?>
+                  <span class="p-news-details__tag">
+                    <span class="p-news-details__tag-item tag-<?php echo esc_attr( $tag->slug ); ?>">
+                      <?php echo esc_html( $tag->name ); ?>
+                    </span>
+                  </span>
+                <?php
+                endforeach;
+              endif;
+              ?>
             </div>
           </div>
 
