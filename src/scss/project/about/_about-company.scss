@@ -71,6 +71,20 @@
       }
     }
 
+    &__span {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+
+      span {
+        min-width: 10rem;
+
+        @media (max-width: 767px) {
+          min-width: 8rem;
+        }
+      }
+    }
+
     &__location-ttl {
       font-weight: 500;
       line-height: 100%;

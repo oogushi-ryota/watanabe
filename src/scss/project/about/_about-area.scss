@@ -1,6 +1,6 @@
 @use "foundation/variables" as *;
 
-.p-about-client {
+.p-about-area {
   & {
     margin-top: 12rem;
     position: relative;
@@ -20,23 +20,11 @@
       }
     }
 
-    &__txt {
-      text-align: center;
-      line-height: 180%;
-      letter-spacing: .03em;
-      margin-top: 7.2rem;
-
-      @media (max-width: 767px) {
-        margin-top: 5.6rem;
-      }
-    }
-
     &__img {
-      width: 116rem;
-      margin-top: 4rem;
+      width: 100%;
+      margin-top: 4.8rem;
 
       @media (max-width: 767px) {
-        width: 100%;
         margin-top: 3.2rem;
       }
     }

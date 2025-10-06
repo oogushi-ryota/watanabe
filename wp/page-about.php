@@ -249,12 +249,34 @@ Template Name: 会社情報
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">役員</th>
                 <td class="p-about-company__td">
-                  長谷川 靖高（代表取締役）<br>
-                  石川 栄一（代表取締役社長）<br>
-                  川田 和義（常務取締役）<br>
-                  菊地 信悟（取締役）<br>
-                  長谷川 裕恭（非常勤取締役）<br>
-                  片山 雅浩（非常勤取締役）長谷川 淳一（監査役）
+                  <span class="p-about-company__span">
+                    <span>長谷川 靖高</span>
+                    （代表取締役）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>石川 栄一</span>
+                    （代表取締役社長）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>川田 和義</span>
+                    （常務取締役）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>菊地 信悟</span>
+                    （取締役）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>長谷川 裕恭</span>
+                    （非常勤取締役）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>片山 雅浩</span>
+                    （非常勤取締役）
+                  </span>
+                  <span class="p-about-company__span">
+                    <span>長谷川 淳一</span>
+                    （監査役）
+                  </span>
                 </td>
               </tr>
               <tr class="p-about-company__tr">
@@ -264,10 +286,10 @@ Template Name: 会社情報
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">売上高（税抜）</th>
                 <td class="p-about-company__td">
-                  7.9億円(2014年)　8.9億円(2015年)　8.4億円(2016年)<br>
-                  9.1億円(2017年)　9.9億円(2018年)　8.7億円(2019年)<br>
-                  7.6億円(2020年)　8.5億円(2021年)　9.5億円(2022年)<br>
-                  8.8億円(2023年)　8.8億円(2024年)　9.5億円(2025年予算)
+                  7.9億円(2014年)　<br class="is-sp">8.9億円(2015年)　<br class="is-sp">8.4億円(2016年)<br>
+                  9.1億円(2017年)　<br class="is-sp">9.9億円(2018年)　<br class="is-sp">8.7億円(2019年)<br>
+                  7.6億円(2020年)　<br class="is-sp">8.5億円(2021年)　<br class="is-sp">9.5億円(2022年)<br>
+                  8.8億円(2023年)　<br class="is-sp">8.8億円(2024年)　<br class="is-sp">9.5億円(2025年予算)
                 </td>
               </tr>
               <tr class="p-about-company__tr">
@@ -293,6 +315,22 @@ Template Name: 会社情報
             上場会社・上場子会社(約150社)を中心に、合計700社を超える企業様の加工をお手伝いさせて頂いております。<br>
             業種別内訳は以下の通りとなっております。
           </p>
+        </div>
+        <div class="c-inner">
+          <picture class="p-about-client__img">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/about/client/client_img.webp" type="image/webp">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/client/client_img.png" width="1160" height="477" alt="主要顧客先">
+          </picture>
+        </div>
+      </section>
+
+      <section class="p-about-area">
+        <div class="p-about-area__inner">
+          <h2 class="c-under-sec-ttl">対応エリア</h2>
+          <picture class="p-about-area__img">
+            <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/about/area/area_img.webp" type="image/webp">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/area/area_img.png" width="960" height="861" alt="対応エリア">
+          </picture>
         </div>
       </section>
 

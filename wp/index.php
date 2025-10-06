@@ -148,9 +148,9 @@ Template Name: トップページ
           <div class="p-top-about__cont">
             <div class="p-top-about__txtarea">
               <p class="p-top-about__txt">
-                精密なワイヤーカット加工を強みとする株式会社ワタナベ。<br>
-                全国対応のネットワークと充実した設備体制により、多様なニーズに柔軟かつ迅速にお応えしています。
-                企業の概要から拠点情報、組織体制まで、ワタナベの全体像をご紹介します。<br>
+                ワイヤーカット加工に特化し、その専業メーカーとして、圧倒的な知名度を誇る株式会社ワタナベ。<br>
+                営業専任メンバーがその機動力を生かし、全国対応のネットワークを構築。最新設備を揃えた４工場が多様なニーズに柔軟かつ迅速にお応えします。<br>
+                企業概要から拠点情報、組織体制まで、ワタナベの全体像をご紹介します。
               </p>
               <div class="p-top-about__btn">
                 <a href="<?php echo esc_url( home_url( '/about/' ) ); ?>" class="c-btn">
@@ -259,11 +259,11 @@ Template Name: トップページ
               </picture>
               <div class="p-top-facility__txtarea l-top-features__txtarea">
                 <div class="c-sec-ttl">
-                  <h2 class="c-sec-ttl__ja">ワタナベの加工力と<br class="is-sp">設備力</h2>
+                  <h2 class="c-sec-ttl__ja">ワタナベの設備力と<br class="is-sp">加工実績</h2>
                 </div>
                 <p class="p-top-facility__txt l-top-features__txt">
-                  多様なニーズに応える柔軟な加工体制と、蓄積されたノウハウを支える設備群。<br>
-                  ワタナベでは、ワイヤーカットを中心に各拠点で最新の設備を整え、精度・スピード・対応力のすべてにおいて高い品質を追求しています。
+                  多様なニーズに応えることができる設備体制、そして数多くの案件依頼のある当社だからこそできる加工実績とノウハウの蓄積。<br>
+                  ワタナベでは、各拠点にワイヤーカット加工機を中心に最新設備を整え、納期・品質・対応力の全てにおいて、最高水準を追求してまいります。
                 </p>
                 <div class="p-top-facility__btn l-top-features__btn">
                   <a href="<?php echo esc_url( home_url( '/facility' ) ); ?>" class="c-btn">
@@ -289,8 +289,8 @@ Template Name: トップページ
                   <h2 class="c-sec-ttl__ja">超短納期を実現</h2>
                 </div>
                 <p class="p-top-delivery__txt l-top-features__txt">
-                  豊富な設備体制と社内一貫の対応力により、最短中4日での納品を実現。<br>
-                  ワイヤーカット加工においては、スピードと精度の両立が求められますが、当社では多数の専用設備と経験豊富なスタッフにより、急ぎのご依頼にも確かな品質で対応いたします。
+                  営業専任メンバーによる機動力、豊富な設備体制＆社内一貫の対応力のシナジー効果により、最短中４日での納品を実現。<br>
+                  ワイヤーカット加工においては、スピードと精度の両立が求められますが、当社では多数の設備と経験豊富なメンバーにより、急ぎのご依頼にも万全の体制で対応いたします。
                 </p>
                 <div class="p-top-delivery__btn l-top-features__btn">
                   <a href="<?php echo esc_url( home_url( '/delivery' ) ); ?>" class="c-btn">
@@ -315,7 +315,10 @@ Template Name: トップページ
               <span class="c-sec-ttl__en">RECRUIT</span>
               <h2 class="c-sec-ttl__ja">採用情報</h2>
             </div>
-            <p class="p-top-recruit__txt">モノづくりの最前線でチャレンジしてみませんか？株式会社ワタナベでは、「まずはやってみる」という姿勢を大切にしながら、一人ひとりの成長を支える教育体制を整えています。</p>
+            <p class="p-top-recruit__txt">
+              モノづくりの最前線でチャレンジしてみませんか？未経験の方でも大歓迎です。<br>
+              ワタナベでは「まずはやってみる」という前向きな姿勢を大切に、一人ひとりの成長を後押しする教育体制を整えています。
+            </p>
             <div class="p-top-recruit__btn">
               <a href="<?php echo esc_url( home_url( '/recruit' ) ); ?>" class="c-btn">
                 <span class="c-btn__txt">採用情報はこちら</span>
