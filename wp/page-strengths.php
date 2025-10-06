@@ -83,6 +83,29 @@ Template Name: 5つの強み
       <section class="p-strengths-shortest" id="shortest">
         <div class="c-inner c-inner--110">
           <h2 class="c-under-sec-ttl">国内最短納期</h2>
+          <div class="p-strengths-voice">
+            <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
+            <ul class="p-strengths-voice__list">
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt">
+                  追加コストをかけずに<br class="is-pc">
+                  納期短縮をしたい
+                </p>
+              </li>
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
+                  急な増産対応となってしまった。<br class="is-sp">デリバリーも含めて特急<br class="is-pc">
+                  対応してくれる先はないか
+                </p>
+              </li>
+            </ul>
+          </div>
           <div class="p-strengths-shortest__details">
             <div class="p-strengths-shortest__cont">
               <div class="p-strengths-shortest__txtarea">
@@ -100,10 +123,7 @@ Template Name: 5つの強み
             <div class="p-strengths-shortest__cont">
               <div class="p-strengths-shortest__txtarea">
                 <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">想定稼働率 70%</h3>
-                <p class="p-strengths-shortest__txt">
-                  通常は70%の稼働率に抑えることで、設備や人員に余裕を持たせています。<br>
-                  これにより、繁忙期や突発的なご依頼にも迅速に対応可能。
-                </p>
+                <p class="p-strengths-shortest__txt">想定稼働率を70%に設定することで、余裕のある通常操業が可能となり、繁忙期や突発的なご依頼にも迅速に対応できる体制を整えています。</p>
               </div>
               <picture class="p-strengths-shortest__img">
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/shortest/shortest_img02.webp" type="image/webp">
@@ -113,7 +133,11 @@ Template Name: 5つの強み
             <div class="p-strengths-shortest__cont">
               <div class="p-strengths-shortest__txtarea">
                 <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">予約なしでの特急対応%</h3>
-                <p class="p-strengths-shortest__txt">急な製造前倒しや増産に伴う特急加工もお気軽にご相談ください。事前のご予約無しでも対応いたします。</p>
+                <p class="p-strengths-shortest__txt">
+                  急な製造前倒しや増産に伴う特急加工もお気軽にご相談ください。事前のご予約無しでも対応いたします。<br>
+                  また、担当営業による引取り・納品体制※により、特急対応をサポートします。<br>
+                  ※対象エリアは限定あり
+                </p>
               </div>
               <picture class="p-strengths-shortest__img">
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/shortest/shortest_img03.webp" type="image/webp">
@@ -130,6 +154,19 @@ Template Name: 5つの強み
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/shortest/shortest_img04.jpg" width="500" height="281" alt="同時並行加工の実現">
               </picture>
             </div>
+            <div class="p-strengths-shortest__cont">
+              <div class="p-strengths-shortest__txtarea">
+                <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">24時間体制で短納期実現</h3>
+                <p class="p-strengths-shortest__txt">
+                  早番・遅番の2交代シフトで設備を効率的に稼働させ、24時間体制での生産を可能にしています。<br>
+                  繁忙期や急なご依頼にも柔軟に対応し、納期遅延を防ぎます。
+                </p>
+              </div>
+              <picture class="p-strengths-shortest__img">
+                <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.webp" type="image/webp">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.jpg" width="500" height="281" alt="24時間体制で短納期実現">
+              </picture>
+            </div>
           </div>
         </div>
       </section>
@@ -138,6 +175,30 @@ Template Name: 5つの強み
         <div class="c-inner">
           <div class="p-strengths-quality__inner">
             <h2 class="c-under-sec-ttl">品質の維持・向上</h2>
+            <div class="p-strengths-voice">
+              <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
+              <ul class="p-strengths-voice__list">
+                <li class="p-strengths-voice__item">
+                  <picture class="p-strengths-voice__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                  </picture>
+                  <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
+                    社内のワイヤー加工機は<br class="is-pc">
+                    長らく更新されていないし、<br class="is-pc">
+                    今後の設備更新も困難だ
+                  </p>
+                </li>
+                <li class="p-strengths-voice__item">
+                  <picture class="p-strengths-voice__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                  </picture>
+                  <p class="p-strengths-voice__txt">
+                    客先の精度要求の高まりに<br class="is-pc">
+                    設備を合わせていくのが大変
+                  </p>
+                </li>
+              </ul>
+            </div>
             <div class="p-strengths-quality__wrap">
               <div class="p-strengths-quality__cont">
                 <picture class="p-strengths-quality__img">
@@ -163,6 +224,29 @@ Template Name: 5つの強み
       <section class="p-strengths-variable" id="variable">
         <div class="c-inner c-inner--110">
           <h2 class="c-under-sec-ttl">お客様の変動費を削減</h2>
+          <div class="p-strengths-voice">
+            <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
+            <ul class="p-strengths-voice__list">
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt">
+                  内製・外注のバランスを見直す<br class="is-pc">
+                  ことで、変動費を削減したい
+                </p>
+              </li>
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt">
+                  採算ラインを引き上げてしま<br class="is-pc">
+                  う設備・人員配置は避けたい
+                </p>
+              </li>
+            </ul>
+          </div>
           <ul class="p-strengths-variable__list">
             <li class="p-strengths-variable__item">
               <picture class="p-strengths-variable__img">
@@ -171,7 +255,11 @@ Template Name: 5つの強み
               </picture>
               <div class="p-strengths-variable__txtarea">
                 <h3 class="p-strengths-variable__cont-ttl c-cont-ttl">短納期対応で在庫コスト削減</h3>
-                <p class="p-strengths-variable__txt">国内最短クラスの納期で急な増産にも対応。余分な在庫を抱えず、安定供給を実現することで、お客様は余分な在庫抱える必要がありません。</p>
+                <p class="p-strengths-variable__txt">
+                  担当営業による引取り・納品体制※により、急な増産対応にも対応。<br>
+                  不測の事態にも安定供給を実現することで、お客様は余分な在庫を抱える必要がありません。<br>
+                  <span class="p-strengths-variable__note">※対象エリアは限定あり</span>
+                </p>
               </div>
             </li>
             <li class="p-strengths-variable__item">
@@ -212,6 +300,29 @@ Template Name: 5つの強み
         <div class="c-inner">
           <div class="p-strengths-cost__inner">
             <h2 class="c-under-sec-ttl">お客様の固定費を削減</h2>
+            <div class="p-strengths-voice">
+              <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
+              <ul class="p-strengths-voice__list">
+                <li class="p-strengths-voice__item">
+                  <picture class="p-strengths-voice__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                  </picture>
+                  <p class="p-strengths-voice__txt">
+                    使用頻度・採算の合わない<br class="is-pc">
+                    設備投資は避けたい
+                  </p>
+                </li>
+                <li class="p-strengths-voice__item">
+                  <picture class="p-strengths-voice__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                  </picture>
+                  <p class="p-strengths-voice__txt">
+                    採算ラインを引き上げてしま<br class="is-pc">
+                    う設備・人員配置は避けたい
+                  </p>
+                </li>
+              </ul>
+            </div>
             <div class="p-strengths-cost__details">
               <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
@@ -236,7 +347,7 @@ Template Name: 5つの強み
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.jpg" width="500" height="281" alt="必要な時だけ利用できる外部設備">
                 </picture>
               </div>
-              <div class="p-strengths-cost__cont">
+              <!-- <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
                   <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">24時間体制で短納期実現</h3>
                   <p class="p-strengths-cost__txt">
@@ -248,7 +359,7 @@ Template Name: 5つの強み
                   <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.webp" type="image/webp">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.jpg" width="500" height="281" alt="24時間体制で短納期実現">
                 </picture>
-              </div>
+              </div> -->
               <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
                   <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">人件費・残業削減に貢献</h3>
@@ -267,14 +378,48 @@ Template Name: 5つの強み
       <section class="p-strengths-sustainability" id="sustainability">
         <div class="c-inner c-inner--110">
           <h2 class="c-under-sec-ttl">企業持続力</h2>
+          <div class="p-strengths-voice p-strengths-voice--l">
+            <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
+            <ul class="p-strengths-voice__list">
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt">
+                  長年取引してきた企業が<br class="is-pc">
+                  高齢化で廃業してしまった
+                </p>
+              </li>
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
+                  災害リスクや人手不足倒産が<br class="is-pc">
+                  叫ばれる時代だからこそ、安<br class="is-pc">
+                  心かつ継続した取引をしたい
+                </p>
+              </li>
+              <li class="p-strengths-voice__item">
+                <picture class="p-strengths-voice__img">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
+                </picture>
+                <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
+                  安いのはいいが、<br class="is-pc">
+                  組織体制や長期的な取引を<br class="is-pc">
+                  するには不安がある
+                </p>
+              </li>
+            </ul>
+          </div>
           <div class="p-strengths-sustainability__details">
             <div class="p-strengths-sustainability__cont">
               <div class="p-strengths-sustainability__txtarea">
-                <h3 class="p-strengths-sustainability__cont-ttl c-cont-ttl">災害対応</h3>
+                <h3 class="p-strengths-sustainability__cont-ttl c-cont-ttl">レジリエンス</h3>
                 <p class="p-strengths-sustainability__txt">
                   国内3県（福島、神奈川、愛知）に4工場を分散配置。<br>
                   いずれも海抜20m以上の立地で、万一の災害時にも拠点間でバックアップ対応することで、生産態勢を維持。<br>
-                  「高リスクの不透明な時代」だからこそ、「ワタナベに任せておけば、継続・安定した付き合いができる」という安心を提供します。
+                  「高リスクの不透明な時代」だからこそ、「ワタナベに任せておけば、継続・安定した生産ができる」という安心を提供します。
                 </p>
               </div>
               <picture class="p-strengths-sustainability__img">
