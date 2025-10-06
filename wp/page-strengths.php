@@ -135,9 +135,9 @@ Template Name: 5つの強み
                 <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">予約なしでの特急対応%</h3>
                 <p class="p-strengths-shortest__txt">
                   急な製造前倒しや増産に伴う特急加工もお気軽にご相談ください。事前のご予約無しでも対応いたします。<br>
-                  また、担当営業による引取り・納品体制※により、特急対応をサポートします。<br>
-                  ※対象エリアは限定あり
+                  また、担当営業による引取り・納品体制※により、特急対応をサポートします。
                 </p>
+                <p class="p-strengths-shortest__note">※対象エリアは限定あり</p>
               </div>
               <picture class="p-strengths-shortest__img">
                 <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/shortest/shortest_img03.webp" type="image/webp">
@@ -326,10 +326,10 @@ Template Name: 5つの強み
             <div class="p-strengths-cost__details">
               <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
-                  <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">多彩な設備で大型加工対応</h3>
+                  <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">多様な設備で特殊加工（油・大型）にも対応</h3>
                   <p class="p-strengths-cost__txt">
-                    油加工機（MX600）や超大型加工機（FA50、最大ストローク1300mm）まで幅広く対応できる生産体制を整えています。<br>
-                    高精度が求められる1ミクロン単位の精密加工も可能です。
+                    油加工機(MX600)や超大型加工機(FA50の場合、最大ストローク1300mm)まで幅広く対応できる生産体制を整えています。<br>
+                    高精度が求められる1μ単位の精密加工も可能です。
                   </p>
                 </div>
                 <picture class="p-strengths-cost__img">
@@ -340,30 +340,17 @@ Template Name: 5つの強み
               <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
                   <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">必要な時だけ利用できる外部設備</h3>
-                  <p class="p-strengths-cost__txt">使用頻度の低い特殊加工は、必要なタイミングだけ当社の設備を利用可能。これにより、お客様は高額な設備投資や維持費を負担する必要がありません。外注化と内製の最適なバランスを実現し、固定費削減に貢献します。</p>
+                  <p class="p-strengths-cost__txt">使用頻度の低い特殊加工は、必要なタイミングだけ当社の設備を活用してください。これにより、お客様は高額な設備投資や維持費を負担する必要がありません。外注化と内製の最適なバランスを実現し、お客様の内製と外注利用のバランスが最適化されることで、固定費削減に貢献します。</p>
                 </div>
                 <picture class="p-strengths-cost__img">
                   <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.webp" type="image/webp">
                   <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.jpg" width="500" height="281" alt="必要な時だけ利用できる外部設備">
                 </picture>
               </div>
-              <!-- <div class="p-strengths-cost__cont">
-                <div class="p-strengths-cost__txtarea">
-                  <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">24時間体制で短納期実現</h3>
-                  <p class="p-strengths-cost__txt">
-                    早番・遅番の2交代シフトで設備を効率的に稼働させ、24時間体制での生産を可能にしています。<br>
-                    繁忙期や急なご依頼にも柔軟に対応し、納期遅延を防ぎます。
-                  </p>
-                </div>
-                <picture class="p-strengths-cost__img">
-                  <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.webp" type="image/webp">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img03.jpg" width="500" height="281" alt="24時間体制で短納期実現">
-                </picture>
-              </div> -->
               <div class="p-strengths-cost__cont">
                 <div class="p-strengths-cost__txtarea">
                   <h3 class="p-strengths-cost__cont-ttl c-cont-ttl">人件費・残業削減に貢献</h3>
-                  <p class="p-strengths-cost__txt">休日出勤や長時間残業を減らしつつ、生産効率を維持・向上。作業の計画化や設備稼働の最適化により、必要以上の人員コストを抑制します。</p>
+                  <p class="p-strengths-cost__txt">ワタナベがお客様の休日出勤や長時間残業の削減のお手伝いをいたします。納期や品質に妥協することなく、お客様の固定費削減が図れます。</p>
                 </div>
                 <picture class="p-strengths-cost__img">
                   <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img04.webp" type="image/webp">
