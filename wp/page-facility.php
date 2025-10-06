@@ -82,7 +82,8 @@ Template Name: 設備・加工案内
               <div class="p-facility-solution__cont">
                 <div class="p-facility-solution__txtarea">
                   <h3 class="p-facility-solution__cont-ttl c-cont-ttl">微細加工から大物加工まで</h3>
-                  <p class="p-facility-solution__txt">1〜2μの形状精度や面粗度に対応する微細加工から、最大2m・重量2tまでの大物加工まで幅広く対応可能です。最大400mm厚の加工や、ワイヤー線径φ0.05～0.3への対応、高精度ギヤ加工、ならい測定器を用いた加工など、多様な設備と技術を駆使し、お客様の求める精度・品質を実現します。</p>
+                  <p class="p-facility-solution__txt">1〜2μの形状精度や面粗度に対応する微細加工から、最大2m・重量2t※までの大物加工まで幅広く対応可能です。最大400mm厚の加工や、ワイヤー線径φ0.05～0.3への対応、高精度ギヤ加工、ならい測定器を用いた加工など、多様な設備と技術を駆使し、お客様の求める精度・品質を実現します。</p>
+                  <p class="p-facility-solution__note">※重量物に関しては要事前調整</p>
                 </div>
                 <picture class="p-facility-solution__img">
                   <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/facility/solution/solution_img02.webp" type="image/webp">

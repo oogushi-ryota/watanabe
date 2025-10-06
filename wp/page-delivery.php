@@ -81,9 +81,9 @@ Template Name: 納期案内
               </picture>
               <div class="p-delivery-schedule__item-ttlarea">
                 <span class="p-delivery-schedule__item-day">DAY2</span>
-                <h3 class="p-delivery-schedule__item-ttl">到着・CAD図面確認・段取り</h3>
+                <h3 class="p-delivery-schedule__item-ttl">到着・CAD図面確認</h3>
               </div>
-              <p class="p-delivery-schedule__item-txt">いただいたCAD図面と照合しながら、加工手順や使用機器を決定。最適な段取りを組み立てます。</p>
+              <p class="p-delivery-schedule__item-txt">お預かりした図面をもとに、CAD専任チームが生産計画やプログラム作成までを迅速に対応します。</p>
             </li>
             <li class="p-delivery-schedule__item">
               <picture class="p-delivery-schedule__img">
@@ -92,9 +92,9 @@ Template Name: 納期案内
               </picture>
               <div class="p-delivery-schedule__item-ttlarea">
                 <span class="p-delivery-schedule__item-day">DAY3</span>
-                <h3 class="p-delivery-schedule__item-ttl">加工</h3>
+                <h3 class="p-delivery-schedule__item-ttl">段取り・加工</h3>
               </div>
-              <p class="p-delivery-schedule__item-txt">図面に基づき、精密な加工を実施します。</p>
+              <p class="p-delivery-schedule__item-txt">人の手により一品一品を丁寧に段取りし、図面に基づき、精密な加工を実施します。</p>
             </li>
             <li class="p-delivery-schedule__item">
               <picture class="p-delivery-schedule__img">

@@ -134,5 +134,18 @@
       position: relative;
       z-index: 1;
     }
+
+    &__note {
+      font-weight: 400;
+      font-size: 1.4rem;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 1.2rem;
+
+      @media (max-width: 767px) {
+        font-size: 1.2rem;
+        margin-top: .8rem;
+      }
+    }
   }
 }

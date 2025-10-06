@@ -11,7 +11,7 @@
     }
 
     &__inner {
-      width: 96rem;
+      width: 110rem;
       margin: 0 auto;
 
       @media (max-width: 767px) {
@@ -39,8 +39,17 @@
       margin-top: 5.6rem;
 
       @media (max-width: 767px) {
+        text-align: left;
         margin-top: 3.2rem;
       }
+    }
+
+    &__bottom-txt {
+      line-height: 180%;
+      letter-spacing: .03em;
+      text-align: center;
+      text-align: right;
+      margin-top: 1.6rem;
     }
   }
 }
