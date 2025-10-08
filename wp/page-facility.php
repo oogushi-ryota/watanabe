@@ -287,7 +287,7 @@ Template Name: 設備・加工案内
                     <td>600</td>
                     <td>400</td>
                     <td>310</td>
-                    <td>2011年07月</td>
+                    <td>2015年11月</td>
                     <td>ー</td>
                   </tr>
                   <tr>
@@ -696,7 +696,7 @@ Template Name: 設備・加工案内
                 <tbody class="p-facility-factory__tbody">
                   <tr>
                     <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
-                    <td>sodic</td>
+                    <td>sodick</td>
                     <td>K1C-S</td>
                     <td>2</td>
                     <td>200</td>
@@ -982,7 +982,7 @@ Template Name: 設備・加工案内
                   </tr>
                   <tr>
                     <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
-                    <td>Sodick</td>
+                    <td>sodick</td>
                     <td>K1C-S</td>
                     <td>1</td>
                     <td>200</td>
