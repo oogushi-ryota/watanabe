@@ -68,10 +68,10 @@
     }
 
     &__details-tag {
-      color: #2196F3;
+      color: $color-base-blue;
       line-height: 100%;
       letter-spacing: .03em;
-      border: solid 1px #2196F3;
+      border: solid 1px $color-base-blue;
       display: inline-block;
       margin-top: 2.4rem;
       padding: .6rem 1.2rem;

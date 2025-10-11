@@ -68,7 +68,7 @@
       @media (max-width: 767px) {
         width: 100vw;
         height: 100vh;
-        background-color: #2E2E2E;
+        background-color: $color-base-blue;
         position: fixed;
         top: 6rem;
         right: -100%;
@@ -109,7 +109,7 @@
     &__contact-btn {
       width: 20rem;
       height: 5.2rem;
-      background-color: #FF5722;
+      background-color: $color-orange;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -131,13 +131,13 @@
     }
 
     &.is-scrolled {
-      background-color: $color-black;
+      background-color: $color-base-blue;
     }
   }
 }
 
 .under-page {
   .l-header {
-    background-color: $color-black;
+    background-color: $color-base-blue;
   }
 }

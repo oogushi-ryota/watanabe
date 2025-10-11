@@ -14,8 +14,8 @@ Template Name: トップページ
         <div class="p-top-fv__inner">
           <div class="p-top-fv__cont">
             <div class="p-top-fv__ttl-area">
-              <h1 class="p-top-fv__ttl">ひたむきに、<br class="is-sp">そしてまっすぐに</h1>
-              <span class="p-top-fv__ttl-en c-en-txt">Solution for KANAGATA</span>
+              <h1 class="p-top-fv__ttl">常識が変わる、<br class="is-sp">ワイヤーが変える</h1>
+              <span class="p-top-fv__ttl-en c-en-txt">The Backbone of MONOZUKURI</span>
             </div>
           </div>
         </div>

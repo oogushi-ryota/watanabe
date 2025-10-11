@@ -28,7 +28,7 @@
       line-height: 130%;
       letter-spacing: .03em;
       text-align: center;
-      background-color: #F9F9F9;
+      background-color: $color-light-gray;
       border: solod 1px $color-gray;
       width: 20rem;
       height: 8rem;
@@ -58,7 +58,7 @@
       letter-spacing: .03em;
       height: 8rem;
       padding: 0 2.4rem;
-      background-color: #2196F3;
+      background-color: $color-base-blue;
       display: flex;
       align-items: center;
       justify-content: flex-start;
@@ -219,7 +219,7 @@
     }
 
     &__ttl {
-      color: #2196f3;
+      color: $color-base-blue;
       font-size: 2rem;
       margin-top: 5.6rem;
 
@@ -314,7 +314,7 @@
     }
 
     &__bg-gray {
-      background-color: #F9F9F9 !important;
+      background-color: $color-light-gray !important;
     }
 
     &__note {

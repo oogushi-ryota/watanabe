@@ -26,10 +26,26 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+      position: relative;
 
       @media (max-width: 767px) {
         padding: 5.6rem 2rem;
       }
+
+      &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: .5);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+    }
+
+    &__details {
+      position: relative;
+      z-index: 1;
     }
 
     &__ttlarea {

@@ -4,7 +4,7 @@
   & {
     margin-top: 12rem;
     padding: 12rem 0;
-    background-color: #F9F9F9;
+    background-color: $color-light-gray;
 
     @media (max-width: 767px) {
       margin-top: 8rem;
@@ -51,7 +51,7 @@
     }
 
     &__customers-item {
-      border: solid 1px #2196F3;
+      border: solid 1px $color-base-blue;
       padding: 2.4rem 1.6rem;
       display: grid;
       grid-template-rows: subgrid;
@@ -65,7 +65,7 @@
     }
 
     &__customers-en-txt {
-      color: #2196F3;
+      color: $color-base-blue;
       font-family: $font-en;
       font-size: 2rem;
       line-height: 120%;
@@ -96,7 +96,7 @@
     }
 
     &__color-txt {
-      color: #2196F3;
+      color: $color-base-blue;
     }
 
     &__customers-bottom {

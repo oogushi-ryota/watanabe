@@ -32,7 +32,7 @@
     }
 
     &__txtarea {
-      width: 64rem;
+      width: 68rem;
 
       @media (max-width: 767px) {
         width: 100%;
@@ -41,9 +41,24 @@
     }
 
     &__txt {
-      font-weight: 500;
-      line-height: 180%;
+      font-size: 1.7rem;
+      font-weight: 400;
+      line-height: 160%;
       letter-spacing: .05em;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      }
+    }
+
+    &__color-txt {
+      font-size: 1.8rem;
+      color: $color-base-blue;
+      font-weight: 700;
+
+      @media (max-width: 767px) {
+        font-size: 1.4rem;
+      }
     }
 
     &__img {

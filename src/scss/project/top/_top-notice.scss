@@ -9,7 +9,7 @@
     }
 
     &__cont {
-      background-color: #F9F9F9;
+      background-color: $color-light-gray;
       padding: 8rem 17rem;
 
       @media (max-width: 767px) {
@@ -83,7 +83,7 @@
     }
 
     &__tag {
-      border: solid 1px #ff5722;
+      border: solid 1px $color-orange;
     }
 
     &__btn {

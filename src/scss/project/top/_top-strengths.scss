@@ -26,12 +26,12 @@
     }
 
     &::before {
-      background-color: rgba($color: #FF5722, $alpha: .05);
+      background-color: rgba($color: $color-orange, $alpha: .05);
       left: 0;
     }
 
     &::after {
-      background-color: rgba($color: #2196F3, $alpha: .05);
+      background-color: rgba($color: $color-base-blue, $alpha: .05);
       right: 0;
     }
 

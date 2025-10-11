@@ -45,13 +45,13 @@
     }
 
     &__tag {
-      color: #ff5722;
+      color: $color-orange;
       font-size: 1.8rem;
       font-weight: 400;
       line-height: 100%;
       letter-spacing: .03em;
       padding: .3rem 1.2rem .4rem;
-      border: solid 1px #ff5722;
+      border: solid 1px $color-orange;
 
       @media (max-width: 767px) {
         font-size: 1.4rem;
@@ -146,7 +146,7 @@
       }
 
       a {
-        color: #2196F3;
+        color: $color-base-blue;
         text-decoration: underline;
         text-underline-offset: .2rem;
       }
