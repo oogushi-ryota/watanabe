@@ -149,12 +149,6 @@ Template Name: 設備・加工案内
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
                   </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide07.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide08.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -178,12 +172,6 @@ Template Name: 設備・加工案内
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide07.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide08.jpg" alt="神奈川ワイヤー加工センター">
                   </div>
                 </div>
               </div>
@@ -1400,6 +1388,12 @@ Template Name: 設備・加工案内
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
                   </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide03.jpg" alt="大型ワイヤー放電加工機">
+                  </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -1408,6 +1402,12 @@ Template Name: 設備・加工案内
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide03.jpg" alt="大型ワイヤー放電加工機">
                   </div>
                 </div>
               </div>

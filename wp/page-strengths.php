@@ -132,7 +132,7 @@ Template Name: 5つの強み
             </div>
             <div class="p-strengths-shortest__cont">
               <div class="p-strengths-shortest__txtarea">
-                <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">予約なしでの特急対応%</h3>
+                <h3 class="p-strengths-shortest__cont-ttl c-cont-ttl">予約なしでの特急対応</h3>
                 <p class="p-strengths-shortest__txt">
                   急な製造前倒しや増産に伴う特急加工もお気軽にご相談ください。事前のご予約無しでも対応いたします。<br>
                   また、担当営業による引取り・納品体制※により、特急対応をサポートします。
