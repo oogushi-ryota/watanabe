@@ -87,21 +87,16 @@ Template Name: 5つの強み
             <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
             <ul class="p-strengths-voice__list">
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt">
                   追加コストをかけずに<br class="is-pc">
                   納期短縮をしたい
                 </p>
               </li>
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
-                  急な増産対応となってしまった。<br class="is-sp">デリバリーも含めて特急<br class="is-pc">
-                  対応してくれる先はないか
+                  急な増産対応となってしまった。<br>
+                  デリバリーも含めて<br>
+                  特急対応してくれる先はないか
                 </p>
               </li>
             </ul>
@@ -179,21 +174,15 @@ Template Name: 5つの強み
               <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
               <ul class="p-strengths-voice__list">
                 <li class="p-strengths-voice__item">
-                  <picture class="p-strengths-voice__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                  </picture>
                   <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
-                    社内のワイヤー加工機は<br class="is-pc">
-                    長らく更新されていないし、<br class="is-pc">
+                    社内のワイヤー加工機は<br>
+                    長らく更新されていないし、<br>
                     今後の設備更新も困難だ
                   </p>
                 </li>
                 <li class="p-strengths-voice__item">
-                  <picture class="p-strengths-voice__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                  </picture>
                   <p class="p-strengths-voice__txt">
-                    客先の精度要求の高まりに<br class="is-pc">
+                    客先の精度要求の高まりに<br>
                     設備を合わせていくのが大変
                   </p>
                 </li>
@@ -228,21 +217,11 @@ Template Name: 5つの強み
             <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
             <ul class="p-strengths-voice__list">
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
-                <p class="p-strengths-voice__txt">
-                  内製・外注のバランスを見直す<br class="is-pc">
-                  ことで、変動費を削減したい
-                </p>
+                <p class="p-strengths-voice__txt">内製・外注のバランスを見直すことで、変動費を削減したい</p>
               </li>
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt">
-                  採算ラインを引き上げてしま<br class="is-pc">
-                  う設備・人員配置は避けたい
+                  採算ラインを引き上げてしまう<br>設備・人員配置は避けたい
                 </p>
               </li>
             </ul>
@@ -304,21 +283,14 @@ Template Name: 5つの強み
               <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
               <ul class="p-strengths-voice__list">
                 <li class="p-strengths-voice__item">
-                  <picture class="p-strengths-voice__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                  </picture>
                   <p class="p-strengths-voice__txt">
-                    使用頻度・採算の合わない<br class="is-pc">
+                    使用頻度・採算の合わない<br>
                     設備投資は避けたい
                   </p>
                 </li>
                 <li class="p-strengths-voice__item">
-                  <picture class="p-strengths-voice__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                  </picture>
                   <p class="p-strengths-voice__txt">
-                    採算ラインを引き上げてしま<br class="is-pc">
-                    う設備・人員配置は避けたい
+                    採算ラインを引き上げてしまう<br>設備・人員配置は避けたい
                   </p>
                 </li>
               </ul>
@@ -343,8 +315,8 @@ Template Name: 5つの強み
                   <p class="p-strengths-cost__txt">使用頻度の低い特殊加工は、必要なタイミングだけ当社の設備を活用してください。これにより、お客様は高額な設備投資や維持費を負担する必要がありません。外注化と内製の最適なバランスを実現し、お客様の内製と外注利用のバランスが最適化されることで、固定費削減に貢献します。</p>
                 </div>
                 <picture class="p-strengths-cost__img">
-                  <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.webp" type="image/webp">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.jpg" width="500" height="281" alt="必要な時だけ利用できる外部設備">
+                  <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img04.webp" type="image/webp">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img04.jpg" width="500" height="281" alt="人件費・残業削減に貢献">
                 </picture>
               </div>
               <div class="p-strengths-cost__cont">
@@ -353,8 +325,8 @@ Template Name: 5つの強み
                   <p class="p-strengths-cost__txt">ワタナベがお客様の休日出勤や長時間残業の削減のお手伝いをいたします。納期や品質に妥協することなく、お客様の固定費削減が図れます。</p>
                 </div>
                 <picture class="p-strengths-cost__img">
-                  <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img04.webp" type="image/webp">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img04.jpg" width="500" height="281" alt="人件費・残業削減に貢献">
+                  <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.webp" type="image/webp">
+                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/cost/cost_img02.jpg" width="500" height="281" alt="必要な時だけ利用できる外部設備">
                 </picture>
               </div>
             </div>
@@ -369,32 +341,22 @@ Template Name: 5つの強み
             <h4 class="p-strengths-voice__ttl">お客様からの声</h4>
             <ul class="p-strengths-voice__list">
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt">
-                  長年取引してきた企業が<br class="is-pc">
+                  長年取引してきた企業が<br>
                   高齢化で廃業してしまった
                 </p>
               </li>
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
-                  災害リスクや人手不足倒産が<br class="is-pc">
-                  叫ばれる時代だからこそ、安<br class="is-pc">
-                  心かつ継続した取引をしたい
+                  災害リスクや人手不足倒産が<br>
+                  叫ばれる時代だからこそ、<br>
+                  安心かつ継続した取引をしたい
                 </p>
               </li>
               <li class="p-strengths-voice__item">
-                <picture class="p-strengths-voice__img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/img/strengths/icon_human.svg" width="56" height="56" alt="">
-                </picture>
                 <p class="p-strengths-voice__txt p-strengths-voice__txt--l">
-                  安いのはいいが、<br class="is-pc">
-                  組織体制や長期的な取引を<br class="is-pc">
-                  するには不安がある
+                  安いのはいいが、<br>
+                  組織体制や長期的な取引をするには不安がある
                 </p>
               </li>
             </ul>

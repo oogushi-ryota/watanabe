@@ -98,13 +98,25 @@ Template Name: 採用情報
                 </div>
               </li>
               <li class="p-recruit-data__item">
-                <h3 class="p-recruit-data__item-ttl">慶弔金最大</h3>
+                <h3 class="p-recruit-data__item-ttl">設立</h3>
+                <div class="p-recruit-data__item-wrap">
+                  <picture class="p-recruit-data__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit/data/data_img06.svg" width="120" height="120" alt="社員平均年齢">
+                  </picture>
+                  <span class="p-recruit-data__num">
+                    <span class="p-recruit-data__l-txt">60</span>年
+                  </span>
+                  <span class="p-recruit-data__note">2016年に会社分割実施</span>
+                </div>
+              </li>
+              <li class="p-recruit-data__item">
+                <h3 class="p-recruit-data__item-ttl">慶弔金</h3>
                 <div class="p-recruit-data__item-wrap">
                   <picture class="p-recruit-data__img">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit/data/data_img04.svg" width="120" height="120" alt="慶弔金最大">
                   </picture>
                   <span class="p-recruit-data__num">
-                    <span class="p-recruit-data__l-txt">10</span>万円
+                    最大<span class="p-recruit-data__l-txt">10</span>万円
                   </span>
                 </div>
               </li>
@@ -116,17 +128,6 @@ Template Name: 採用情報
                   </picture>
                   <span class="p-recruit-data__num">
                     費用補助<span class="p-recruit-data__l-txt">3</span>千円
-                  </span>
-                </div>
-              </li>
-              <li class="p-recruit-data__item">
-                <h3 class="p-recruit-data__item-ttl">平均有給取得日数</h3>
-                <div class="p-recruit-data__item-wrap">
-                  <picture class="p-recruit-data__img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit/data/data_img06.svg" width="120" height="120" alt="平均有給取得日数">
-                  </picture>
-                  <span class="p-recruit-data__num">
-                    <span class="p-recruit-data__l-txt">11.4</span>日
                   </span>
                 </div>
               </li>

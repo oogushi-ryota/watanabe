@@ -14,6 +14,8 @@
 
     &__txtarea {
       width: 52.2rem;
+      position: relative;
+      z-index: 2;
 
       @media (max-width: 767px) {
         width: 100%;

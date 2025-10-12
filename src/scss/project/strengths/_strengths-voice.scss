@@ -2,18 +2,17 @@
 
 .p-strengths-voice {
   & {
-    width: 78rem;
+    max-width: 84rem;
     margin: 5.6rem auto;
     padding: 3.2rem 6rem;
-    background-color: $color-white;
-    border: solid 1px $color-gray;
+    background-color: #EFEFEF;
     position: relative;
     z-index: 2;
 
     @media (max-width: 767px) {
       width: 100%;
       margin: 4rem auto;
-      padding: 4rem 1rem;
+      padding: 4rem 1rem 2rem;
     }
 
     &__ttl {
@@ -30,27 +29,28 @@
 
     &__list {
       display: flex;
-      align-items: center;
+      align-items: stretch;
       justify-content: center;
-      gap: 5.6rem;
+      gap: 4rem;
       margin-top: 2.4rem;
 
       @media (max-width: 767px) {
         align-items: flex-start;
         justify-content: flex-start;
         flex-direction: column;
-        gap: 2.4rem;
+        gap: 1rem;
       }
     }
 
     &__item {
+      width: 34rem;
+      background-color: $color-white;
       display: flex;
       align-items: center;
-      justify-content: flex-start;
-      gap: 1.2rem;
+      justify-content: center;
 
       @media (max-width: 767px) {
-        gap: .6rem;
+        width: 100%;
       }
     }
 
@@ -60,47 +60,19 @@
     }
 
     &__txt {
-      min-width: 24rem;
-      min-height: 6.6rem;
-      background-image: url(../img/strengths/bubble.svg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      font-size: 1.4rem;
-      font-weight: 400;
-      line-height: 130%;
+      font-weight: 500;
+      line-height: 150%;
       letter-spacing: .03em;
-      display: flex;
-      align-items: center;
-      justify-content: flex-start;
+      text-align: center;
       padding: 1.2rem 1.8rem;
 
       @media (max-width: 767px) {
-        width: 20rem;
-        min-width: unset;
-        height: 5.5rem;
-        min-height: unset;
-        font-size: 1.2rem;
         padding: 1.2rem;
-      }
-
-      &--l {
-        min-width: 21.5rem;
-        min-height: 8.1rem;
-        background-image: url(../img/strengths/bubble-l.svg);
-        background-size: contain;
-        padding: 1.2rem 0 1.2rem 1.6rem;
-
-        @media (max-width: 767px) {
-        width: 21rem;
-        min-width: unset;
-        height: 7.6rem;
-        min-height: unset;
-        padding: 1.2rem;
-      }
       }
     }
 
     &--l {
+      max-width: 100%;
       width: 110rem;
 
       @media (max-width: 767px) {
