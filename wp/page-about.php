@@ -103,7 +103,7 @@ Template Name: 会社情報
                   非接触除去加工技能士 ワイヤ放電加工作業<br>
                   特級取得者 1名<br>
                   1級取得者 6名<br>
-                  2級取得者 19名
+                  2級取得者 26名
                 </li>
               </ul>
             </div>
@@ -168,7 +168,9 @@ Template Name: 会社情報
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">株主</th>
-                <td class="p-about-company__td">株式会社メイドー（100%）</td>
+                <td class="p-about-company__td">
+                  <a href="https://www.meidoh.co.jp/" target="_blank">株式会社メイドー（100%）</a>
+                </td>
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">所在地</th>
@@ -281,7 +283,7 @@ Template Name: 会社情報
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">従業員数</th>
-                <td class="p-about-company__td">89名（正社員）平均年齢 32.1才</td>
+                <td class="p-about-company__td">88名（正社員・パート）<br class="is-sp">平均年齢 32.6才</td>
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">売上高（税抜）</th>
@@ -372,6 +374,12 @@ Template Name: 会社情報
                     <td>1,354.75㎡</td>
                     <td>3,920.00m</td>
                     <td>自社</td>
+                  </tr>
+                  <tr>
+                    <td>神奈川ワイヤー加工センター</td>
+                    <td>531.56㎡</td>
+                    <td>917.91㎡</td>
+                    <td>賃借</td>
                   </tr>
                   <tr>
                     <td>中部ワイヤー加工センター</td>

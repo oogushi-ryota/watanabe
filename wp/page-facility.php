@@ -43,12 +43,12 @@ Template Name: 設備・加工案内
             <div class="p-facility-precision__txtarea">
               <p class="p-facility-precision__txt">
                 当社では、恒温室環境のもと、最新のワイヤー加工機だけでなく、三次元測定機・画像測定機などの設備を多数導入し、超精密加工にも対応できる環境を整えています。<br><br>
-                <span class="p-facility-precision__color-txt">【金属・量産品対応】</span><br>
+                <span class="p-facility-precision__color-txt">【金型・量産品対応】</span><br>
                 金型では、プレス、FB、モールド、ダイキャスト、ゴム型等の対応が可能です。また量産品では、例えば月産10,000個単位のレベルまで安定供給が可能であり、加工機の台数を生かした超短納期対応を実現しています。加工時間に応じた柔軟な価格体系を設定することで、コスト面でもご満足いただける体制を整えています。<br><br>
                 <span class="p-facility-precision__color-txt">【難削材対応・大型加工】</span><br>
-                アルミやモリブデンなどの難削材加工にも対応し、厚物加工用のZ：400対応機（8台）や、国内最大級のFA30・FA40・FA50による大型加工にも対応可能です。保有する100台の加工機の平均稼働年数は8年11ヶ月（2025年4月時点）と非常に新しく、高精度かつ安定した加工を支えています。<br><br>
+                アルミやモリブデンなどの難削材加工にも対応し、厚物加工用のZ：400対応機（8台）や、国内最大級のFA30・FA40・FA50による大型加工にも対応可能です。保有する100台の加工機の平均稼働年数は9年7ヶ月（2025年12月時点）と非常に新しく、高精度かつ安定した加工を支えています。<br><br>
                 <span class="p-facility-precision__color-txt">【多数の高スキル人材】</span><br>
-                技能向上にも積極的に取り組み、技能検定委員3名をはじめ、多くの有資格者が在籍。特級取得者1名、1級取得者6名、2級取得者19名が高度な加工技術を駆使し、お客様の多様なニーズにお応えします。
+                技能向上にも積極的に取り組み、技能検定委員3名をはじめ、多くの有資格者が在籍。特級取得者1名、1級取得者6名、2級取得者26名が高度な加工技術を駆使し、お客様の多様なニーズにお応えします。
               </p>
             </div>
             <picture class="p-facility-precision__img">
@@ -107,279 +107,28 @@ Template Name: 設備・加工案内
       <section class="p-facility-factory">
         <div class="c-inner c-inner--110">
           <ul class="p-facility-factory__tabbtn-list js-tabbtn-list">
-            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list2" data-term-id="2">
-              神奈川ワイヤー<br>
-              加工センター
-            </li>
-            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list3" data-term-id="3">
+            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list1" data-term-id="1">
               福島ワイヤー<br>
               加工センター第一工場
             </li>
-            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list3" data-term-id="3">
+            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list2" data-term-id="2">
               福島ワイヤー<br>
               加工センター第二工場
             </li>
-            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list1" data-term-id="1">
+            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list3" data-term-id="3">
+              神奈川ワイヤー<br>
+              加工センター
+            </li>
+            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list4" data-term-id="4">
               中部ワイヤー<br>
               加工センター
             </li>
-            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list3" data-term-id="3">
+            <li class="p-facility-factory__tabbtn-item js-tabbtn-item" id="tab-list5" data-term-id="5">
               大型ワイヤー<br>
               放電加工機
             </li>
           </ul>
           <div class="p-facility-factory__cont js-tab-item" id="tab1">
-            <h2 class="p-facility-factory__cont-ttl">神奈川ワイヤー加工センター</h2>
-            <div class="p-facility-factory__slider js-slider">
-              <div class="swiper p-facility-factory__swiper">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide01.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide02.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide03.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide04.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide05.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-              </div>
-              <div class="swiper p-facility-factory__thumbs">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide01.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide02.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide03.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide04.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide05.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="p-facility-factory__description">
-              <span class="p-facility-factory__description-head">ワイヤー加工機20台</span>
-              <span class="p-facility-factory__description-tel">TEL：046-244-6976（髙橋センター長）</span>
-            </div>
-            <div class="p-facility-factory__table-wrap">
-              <table class="p-facility-factory__table">
-                <thead class="p-facility-factory__thead">
-                  <tr>
-                    <th scope="col" rowspan="2">機械名</th>
-                    <th scope="col" rowspan="2">メーカー</th>
-                    <th scope="col" rowspan="2">機種名</th>
-                    <th scope="col" rowspan="2">台数</th>
-                    <th scope="col" colspan="3">ストローク</th>
-                    <th scope="col" rowspan="2">設備導入年月</th>
-                    <th scope="col" rowspan="2">備考</th>
-                  </tr>
-                  <tr>
-                    <th class="p-facility-factory__stroke" scope="col">X</th>
-                    <th class="p-facility-factory__stroke" scope="col">Y</th>
-                    <th class="p-facility-factory__stroke" scope="col">Z</th>
-                  </tr>
-                </thead>
-                <tbody class="p-facility-factory__tbody">
-                  <tr>
-                    <td class="p-facility-factory__bg-gray" rowspan="6">ワイヤー放電加工機</td>
-                    <td rowspan="6">三菱電機</td>
-                    <td rowspan="6">Ba-8</td>
-                    <td rowspan="6">6</td>
-                    <td rowspan="6">320</td>
-                    <td rowspan="6">250</td>
-                    <td rowspan="6">220</td>
-                    <td>2007年09月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2008年06月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2008年11月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2010年02月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2010年04月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2011年06月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
-                    <td>三菱電機</td>
-                    <td>Ba24<br>(精密加工オプション付)</td>
-                    <td>1</td>
-                    <td>600</td>
-                    <td>400</td>
-                    <td>310</td>
-                    <td>2010年02月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray" rowspan="2">ワイヤー放電加工機</td>
-                    <td rowspan="2">三菱電機</td>
-                    <td rowspan="2">Ba24</td>
-                    <td rowspan="2">2</td>
-                    <td rowspan="2">600</td>
-                    <td rowspan="2">400</td>
-                    <td rowspan="2">310</td>
-                    <td>2011年10月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2012年09月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
-                    <td>三菱電機</td>
-                    <td>NA1200</td>
-                    <td>1</td>
-                    <td>400</td>
-                    <td>300</td>
-                    <td>220</td>
-                    <td>2011年07月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
-                    <td>三菱電機</td>
-                    <td>MV2400S</td>
-                    <td>3</td>
-                    <td>600</td>
-                    <td>400</td>
-                    <td>310</td>
-                    <td>2015年11月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray" rowspan="3">ワイヤー放電加工機</td>
-                    <td rowspan="3">三菱電機</td>
-                    <td rowspan="3">MV2400R</td>
-                    <td rowspan="3">4</td>
-                    <td rowspan="3">600</td>
-                    <td rowspan="3">400</td>
-                    <td rowspan="3">310</td>
-                    <td>2017年05月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td>2023年06月（2台）</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td>2024年01月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray" rowspan="2">ワイヤー放電加工機</td>
-                    <td rowspan="2">三菱電機</td>
-                    <td rowspan="2">MV1200R</td>
-                    <td rowspan="2">2</td>
-                    <td rowspan="2">400</td>
-                    <td rowspan="2">300</td>
-                    <td rowspan="2">220</td>
-                    <td>2018年10月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td>2025年01月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
-                    <td>三菱電機</td>
-                    <td>MP2400</td>
-                    <td>1</td>
-                    <td>600</td>
-                    <td>400</td>
-                    <td>310</td>
-                    <td>2021年03月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">NC細穴放電加工機</td>
-                    <td>ELENIX</td>
-                    <td>CT500FX-M</td>
-                    <td>1</td>
-                    <td>550</td>
-                    <td>380</td>
-                    <td>250</td>
-                    <td>2024年01月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
-                    <td>三菱電機</td>
-                    <td>RH3525</td>
-                    <td>1</td>
-                    <td>350</td>
-                    <td>250</td>
-                    <td>300</td>
-                    <td>2013年01月</td>
-                    <td>ー</td>
-                  </tr>
-                  <tr>
-                    <td class="p-facility-factory__bg-gray">機上測定機</td>
-                    <td>熊本精研</td>
-                    <td>NK-2000</td>
-                    <td>1</td>
-                    <td>ー</td>
-                    <td>ー</td>
-                    <td>ー</td>
-                    <td>2024年02月</td>
-                    <td>ー</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="p-facility-factory__note">
-              <span class="p-facility-factory__note-txt">
-                神奈川工場ワイヤー放電加工機平均稼動年月数 9年8ヶ月<br>
-                （2025年4月時点）
-              </span>
-            </div>
-            <div class="p-facility-factory__btn">
-              <a href="https://maps.app.goo.gl/r1HLcwzZ4DWANMb37" class="c-btn" target="_blank">
-                <span class="c-btn__txt">アクセスマップはこちら</span>
-                <span class="c-btn__svg-wrap">
-                  <svg class="c-btn__svg" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.386963 6.15234L14.137 6.15234M9.66821 10.9648L14.4807 6.15234L9.66821 1.33984" stroke="#2196F3"/>
-                  </svg>
-                </span>
-              </a>
-            </div>
-          </div>
-
-          <div class="p-facility-factory__cont js-tab-item" id="tab2">
             <h2 class="p-facility-factory__cont-ttl">福島ワイヤー加工センター第一工場</h2>
             <div class="p-facility-factory__slider js-slider">
               <div class="swiper p-facility-factory__swiper">
@@ -402,9 +151,6 @@ Template Name: 設備・加工案内
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima01/slide06.jpg" alt="福島ワイヤー加工センター第一工場">
                   </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima01/slide07.jpg" alt="福島ワイヤー加工センター第一工場">
-                  </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -428,9 +174,6 @@ Template Name: 設備・加工案内
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima01/slide06.jpg" alt="福島ワイヤー加工センター第一工場">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima01/slide07.jpg" alt="福島ワイヤー加工センター第一工場">
                   </div>
                 </div>
               </div>
@@ -703,8 +446,19 @@ Template Name: 設備・加工案内
                     <td>350</td>
                     <td>250</td>
                     <td>300</td>
-                    <td>2016 年01月</td>
+                    <td>2016年01月</td>
                     <td>—</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">NC細穴放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>SH12</td>
+                    <td>1</td>
+                    <td>400</td>
+                    <td>300</td>
+                    <td>380</td>
+                    <td>2025年09月</td>
+                    <td>ATC付き</td>
                   </tr>
                 </tbody>
               </table>
@@ -730,7 +484,7 @@ Template Name: 設備・加工案内
                 </thead>
                 <tbody class="p-facility-factory__tbody">
                   <tr>
-                    <td class="p-facility-factory__bg-gray">大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">超大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-50</td>
                     <td>1</td>
@@ -741,7 +495,7 @@ Template Name: 設備・加工案内
                     <td>—</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
+                    <td class="p-facility-factory__bg-gray">超大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-40</td>
                     <td>1</td>
@@ -752,7 +506,7 @@ Template Name: 設備・加工案内
                     <td>—</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-30</td>
                     <td>1</td>
@@ -767,8 +521,8 @@ Template Name: 設備・加工案内
             </div>
             <div class="p-facility-factory__note">
               <span class="p-facility-factory__note-txt">
-                福島工場ワイヤー放電加工機平均稼動年月数10年7ヶ月<br>
-                （2025年4月時点）
+                福島工場ワイヤー放電加工機平均稼動年月数11年3ヶ月<br>
+                （2025年12月時点）
               </span>
             </div>
             <div class="p-facility-factory__btn">
@@ -783,7 +537,7 @@ Template Name: 設備・加工案内
             </div>
           </div>
 
-          <div class="p-facility-factory__cont js-tab-item" id="tab3">
+          <div class="p-facility-factory__cont js-tab-item" id="tab2">
             <h2 class="p-facility-factory__cont-ttl">福島ワイヤー加工センター第二工場</h2>
             <div class="p-facility-factory__slider js-slider">
               <div class="swiper p-facility-factory__swiper">
@@ -805,12 +559,6 @@ Template Name: 設備・加工案内
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide06.jpg" alt="福島ワイヤー加工センター第二工場">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide07.jpg" alt="福島ワイヤー加工センター第二工場">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide08.jpg" alt="福島ワイヤー加工センター第二工場">
                   </div>
                 </div>
                 <div class="swiper-button-next"></div>
@@ -835,12 +583,6 @@ Template Name: 設備・加工案内
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide06.jpg" alt="福島ワイヤー加工センター第二工場">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide07.jpg" alt="福島ワイヤー加工センター第二工場">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/fukushima02/slide08.jpg" alt="福島ワイヤー加工センター第二工場">
                   </div>
                 </div>
               </div>
@@ -971,17 +713,6 @@ Template Name: 設備・加工案内
                     <td>—</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
-                    <td>sodick</td>
-                    <td>K1C-S</td>
-                    <td>1</td>
-                    <td>200</td>
-                    <td>300</td>
-                    <td>200</td>
-                    <td>2008年01月</td>
-                    <td>—</td>
-                  </tr>
-                  <tr>
                     <td class="p-facility-factory__bg-gray">三次元測定機</td>
                     <td>カール・ツァイス</td>
                     <td>CONTURA AKTIV 7/7/6</td>
@@ -992,17 +723,279 @@ Template Name: 設備・加工案内
                     <td>2020年03月</td>
                     <td>—</td>
                   </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">機上測定機</td>
+                    <td>熊本精研</td>
+                    <td>NK-2000</td>
+                    <td>1</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>2025年05月</td>
+                    <td>—</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
             <div class="p-facility-factory__note">
               <span class="p-facility-factory__note-txt">
-                福島第二工場ワイヤー放電加工機平均稼働年月数 5年5ヶ月<br>
-                （2025年4月時点）
+                福島第二工場ワイヤー放電加工機平均稼働年月数 6年1ヶ月<br>
+                （2025年12月時点）
               </span>
             </div>
             <div class="p-facility-factory__btn">
               <a href="https://maps.app.goo.gl/qpP9A1HnwG3Px3xm7" class="c-btn" target="_blank">
+                <span class="c-btn__txt">アクセスマップはこちら</span>
+                <span class="c-btn__svg-wrap">
+                  <svg class="c-btn__svg" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.386963 6.15234L14.137 6.15234M9.66821 10.9648L14.4807 6.15234L9.66821 1.33984" stroke="#2196F3"/>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="p-facility-factory__cont js-tab-item" id="tab3">
+            <h2 class="p-facility-factory__cont-ttl">神奈川ワイヤー加工センター</h2>
+            <div class="p-facility-factory__slider js-slider">
+              <div class="swiper p-facility-factory__swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide01.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide02.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide03.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide04.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide05.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+              <div class="swiper p-facility-factory__thumbs">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide01.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide02.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide03.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide04.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide05.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/kanagawa/slide06.jpg" alt="神奈川ワイヤー加工センター">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-facility-factory__description">
+              <span class="p-facility-factory__description-head">ワイヤー加工機20台</span>
+              <span class="p-facility-factory__description-tel">TEL：046-244-6976（髙橋センター長）</span>
+            </div>
+            <div class="p-facility-factory__table-wrap">
+              <table class="p-facility-factory__table">
+                <thead class="p-facility-factory__thead">
+                  <tr>
+                    <th scope="col" rowspan="2">機械名</th>
+                    <th scope="col" rowspan="2">メーカー</th>
+                    <th scope="col" rowspan="2">機種名</th>
+                    <th scope="col" rowspan="2">台数</th>
+                    <th scope="col" colspan="3">ストローク</th>
+                    <th scope="col" rowspan="2">設備導入年月</th>
+                    <th scope="col" rowspan="2">備考</th>
+                  </tr>
+                  <tr>
+                    <th class="p-facility-factory__stroke" scope="col">X</th>
+                    <th class="p-facility-factory__stroke" scope="col">Y</th>
+                    <th class="p-facility-factory__stroke" scope="col">Z</th>
+                  </tr>
+                </thead>
+                <tbody class="p-facility-factory__tbody">
+                  <tr>
+                    <td class="p-facility-factory__bg-gray" rowspan="6">ワイヤー放電加工機</td>
+                    <td rowspan="6">三菱電機</td>
+                    <td rowspan="6">BA-8</td>
+                    <td rowspan="6">6</td>
+                    <td rowspan="6">320</td>
+                    <td rowspan="6">250</td>
+                    <td rowspan="6">220</td>
+                    <td>2007年09月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2008年06月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2008年11月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2010年02月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2010年04月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2011年06月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>BA24<br>(精密加工オプション付)</td>
+                    <td>1</td>
+                    <td>600</td>
+                    <td>400</td>
+                    <td>310</td>
+                    <td>2010年02月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray" rowspan="2">ワイヤー放電加工機</td>
+                    <td rowspan="2">三菱電機</td>
+                    <td rowspan="2">BA24</td>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">600</td>
+                    <td rowspan="2">400</td>
+                    <td rowspan="2">310</td>
+                    <td>2011年10月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2012年09月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>NA1200</td>
+                    <td>1</td>
+                    <td>400</td>
+                    <td>300</td>
+                    <td>220</td>
+                    <td>2011年07月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>MV2400S</td>
+                    <td>3</td>
+                    <td>600</td>
+                    <td>400</td>
+                    <td>310</td>
+                    <td>2015年11月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray" rowspan="3">ワイヤー放電加工機</td>
+                    <td rowspan="3">三菱電機</td>
+                    <td rowspan="3">MV2400R</td>
+                    <td rowspan="3">4</td>
+                    <td rowspan="3">600</td>
+                    <td rowspan="3">400</td>
+                    <td rowspan="3">310</td>
+                    <td>2017年05月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td>2023年06月（2台）</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td>2024年01月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray" rowspan="2">ワイヤー放電加工機</td>
+                    <td rowspan="2">三菱電機</td>
+                    <td rowspan="2">MV1200R</td>
+                    <td rowspan="2">2</td>
+                    <td rowspan="2">400</td>
+                    <td rowspan="2">300</td>
+                    <td rowspan="2">220</td>
+                    <td>2018年10月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td>2025年01月</td>
+                    <td>—</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">ワイヤー放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>MP2400</td>
+                    <td>1</td>
+                    <td>600</td>
+                    <td>400</td>
+                    <td>310</td>
+                    <td>2021年03月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">NC細穴放電加工機</td>
+                    <td>ELENIX</td>
+                    <td>CT500FX-M</td>
+                    <td>1</td>
+                    <td>550</td>
+                    <td>380</td>
+                    <td>250</td>
+                    <td>2024年01月</td>
+                    <td>ATC付き</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
+                    <td>三菱電機</td>
+                    <td>RH3525</td>
+                    <td>1</td>
+                    <td>350</td>
+                    <td>250</td>
+                    <td>300</td>
+                    <td>2013年01月</td>
+                    <td>ー</td>
+                  </tr>
+                  <tr>
+                    <td class="p-facility-factory__bg-gray">機上測定機</td>
+                    <td>熊本精研</td>
+                    <td>NK-2000</td>
+                    <td>1</td>
+                    <td>ー</td>
+                    <td>ー</td>
+                    <td>ー</td>
+                    <td>2024年02月</td>
+                    <td>ー</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="p-facility-factory__note">
+              <span class="p-facility-factory__note-txt">
+                神奈川工場ワイヤー放電加工機平均稼動年月数 10年4ヶ月<br>
+                （2025年12月時点）
+              </span>
+            </div>
+            <div class="p-facility-factory__btn">
+              <a href="https://maps.app.goo.gl/r1HLcwzZ4DWANMb37" class="c-btn" target="_blank">
                 <span class="c-btn__txt">アクセスマップはこちら</span>
                 <span class="c-btn__svg-wrap">
                   <svg class="c-btn__svg" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1036,9 +1029,6 @@ Template Name: 設備・加工案内
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/chubu/slide06.jpg" alt="中部ワイヤー加工センター">
                   </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/chubu/slide07.jpg" alt="中部ワイヤー加工センター">
-                  </div>
                 </div>
                 <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
@@ -1062,9 +1052,6 @@ Template Name: 設備・加工案内
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/chubu/slide06.jpg" alt="中部ワイヤー加工センター">
-                  </div>
-                  <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/chubu/slide07.jpg" alt="中部ワイヤー加工センター">
                   </div>
                 </div>
               </div>
@@ -1285,7 +1272,7 @@ Template Name: 設備・加工案内
                     <td>ー</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-30</td>
                     <td>1</td>
@@ -1315,7 +1302,7 @@ Template Name: 設備・加工案内
                     <td>380</td>
                     <td>250</td>
                     <td>2022年04月</td>
-                    <td>ー</td>
+                    <td>ATC付き</td>
                   </tr>
                   <tr>
                     <td class="p-facility-factory__bg-gray">細穴放電加工機</td>
@@ -1366,8 +1353,8 @@ Template Name: 設備・加工案内
             </div>
             <div class="p-facility-factory__note">
               <span class="p-facility-factory__note-txt">
-                中部工場ワイヤー放電加工機平均稼動年月数 9年7ヶ月<br>
-                (2025年4月時点)
+                中部工場ワイヤー放電加工機平均稼動年月数 10年3ヶ月<br>
+                (2025年12月時点)
               </span>
             </div>
             <div class="p-facility-factory__btn">
@@ -1388,10 +1375,10 @@ Template Name: 設備・加工案内
               <div class="swiper p-facility-factory__swiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
                   </div>
                   <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide03.jpg" alt="大型ワイヤー放電加工機">
@@ -1403,10 +1390,10 @@ Template Name: 設備・加工案内
               <div class="swiper p-facility-factory__thumbs">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
                   </div>
                   <div class="swiper-slide">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide02.jpg" alt="大型ワイヤー放電加工機">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide01.jpg" alt="大型ワイヤー放電加工機">
                   </div>
                   <div class="swiper-slide">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/facility/factory/oogata/slide03.jpg" alt="大型ワイヤー放電加工機">
@@ -1437,7 +1424,7 @@ Template Name: 設備・加工案内
                 </thead>
                 <tbody class="p-facility-factory__tbody">
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">超大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-50</td>
                     <td>1</td>
@@ -1448,7 +1435,7 @@ Template Name: 設備・加工案内
                     <td>福島工場</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">超大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-40</td>
                     <td>1</td>
@@ -1459,7 +1446,7 @@ Template Name: 設備・加工案内
                     <td>福島工場</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-30</td>
                     <td>1</td>
@@ -1470,7 +1457,7 @@ Template Name: 設備・加工案内
                     <td>福島工場</td>
                   </tr>
                   <tr>
-                    <td class="p-facility-factory__bg-gray">超大型ワイヤー加工機</td>
+                    <td class="p-facility-factory__bg-gray">大型ワイヤー放電加工機</td>
                     <td>三菱電機</td>
                     <td>FA-30</td>
                     <td>1</td>
@@ -1485,8 +1472,8 @@ Template Name: 設備・加工案内
             </div>
             <div class="p-facility-factory__note">
               <span class="p-facility-factory__note-txt">
-                大型機平均稼動年月数 14年4ヶ月<br>
-                （2025年4月時点）
+                大型機平均稼動年月数 14年12ヶ月<br>
+                （2025年12月時点）
               </span>
             </div>
           </div>

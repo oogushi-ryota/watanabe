@@ -29,6 +29,9 @@
               <li class="l-footer__nav-item">
                 <a href="<?php echo esc_url( home_url( '/contact/' ) ); ?>" class="l-footer__nav-link">お問い合わせ</a>
               </li>
+              <li class="l-footer__nav-item">
+                <a href="<?php echo get_template_directory_uri(); ?>/assets/img/pdf/about.pdf" class="l-footer__nav-link" target="_blank">会社概要<br class="is-sp">パンフレット</a>
+              </li>
             </ul>
           </nav>
         </div>

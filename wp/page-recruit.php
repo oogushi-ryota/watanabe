@@ -110,7 +110,7 @@ Template Name: 採用情報
                 </div>
               </li>
               <li class="p-recruit-data__item">
-                <h3 class="p-recruit-data__item-ttl">慶弔金</h3>
+                <h3 class="p-recruit-data__item-ttl">慶弔見舞金制度</h3>
                 <div class="p-recruit-data__item-wrap">
                   <picture class="p-recruit-data__img">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit/data/data_img04.svg" width="120" height="120" alt="慶弔金最大">
@@ -277,9 +277,9 @@ Template Name: 採用情報
         <div class="c-inner">
           <div class="p-recruit-results-total__bg">
             <div class="c-inner--110">
-              <h2 class="c-under-sec-ttl">昨年度採用実績</h2>
+              <h2 class="c-under-sec-ttl">在籍者出身校一覧</h2>
               <div class="p-recruit-results-total__details">
-                <h3 class="p-recruit-results-total__cont-ttl c-cont-ttl">出身大学・専門学校</h3>
+                <h3 class="p-recruit-results-total__cont-ttl c-cont-ttl">大学・専門学校</h3>
                 <div class="p-recruit-results-total__wrap">
                   <div class="p-recruit-results-total__table-wrap">
                     <table class="p-recruit-results-total__table">
@@ -504,7 +504,7 @@ Template Name: 採用情報
                 </div>
               </div>
               <div class="p-recruit-results-total__details">
-                <h3 class="p-recruit-results-total__cont-ttl c-cont-ttl">在籍者出身高校</h3>
+                <h3 class="p-recruit-results-total__cont-ttl c-cont-ttl">高等学校</h3>
                 <div class="p-recruit-results-total__wrap">
                   <div class="p-recruit-results-total__table-wrap">
                     <table class="p-recruit-results-total__table">

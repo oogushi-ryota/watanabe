@@ -184,10 +184,18 @@
 
     &__branch-img {
       width: 38rem;
+      height: 21.4rem;
+      aspect-ratio: 380 / 214;
       margin-top: 2.4rem;
 
       @media (max-width: 767px) {
         width: 100%;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
       }
     }
 
