@@ -283,7 +283,7 @@ Template Name: 会社情報
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">従業員数</th>
-                <td class="p-about-company__td">88名（正社員・パート）<br class="is-sp">平均年齢 32.6才</td>
+                <td class="p-about-company__td">88名（正社員・パート）<br class="is-sp">平均年齢 31.6才</td>
               </tr>
               <tr class="p-about-company__tr">
                 <th class="p-about-company__th">売上高（税抜）</th>

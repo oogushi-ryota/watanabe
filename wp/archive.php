@@ -34,7 +34,7 @@ Template Name: お知らせ
       </section>
 
       <section class="p-news-archive">
-        <div class="c-inner c-inner--110">
+        <div class="c-inner">
           <ul class="p-news-archive__category-list">
             <li class="p-news-archive__category-item category-all">
               <a href="<?php echo esc_url( home_url( '/news/' ) ); ?>" class="p-news-archive__category-btn <?php if ( is_home() || is_post_type_archive('post') || is_page('news') && !is_category() ) echo 'is-current'; ?>">すべて</a>
@@ -75,7 +75,8 @@ Template Name: お知らせ
               </li>
             <?php endforeach; ?>
           </ul>
-
+        </div>
+        <div class="c-inner c-inner--110">
           <?php if ( have_posts() ) : ?>
           <ul class="p-news-archive__list">
             <?php while ( have_posts() ) : the_post(); ?>

@@ -192,5 +192,12 @@
         font-weight: 700;
       }
     }
+
+    &__btn {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 4rem;
+    }
   }
 }

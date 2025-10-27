@@ -29,7 +29,8 @@ Template Name: トップページ
               'post_type'      => 'post',       // 投稿タイプ（お知らせ）
               'posts_per_page' => 1,            // 最新1件だけ
               'orderby'        => 'date',       // 日付順
-              'order'          => 'DESC'        // 新しい順
+              'order'          => 'DESC',        // 新しい順
+              'category_name'  => 'exhibition'   // ← 「展示会のお知らせ」カテゴリ（スラッグ）を指定
             );
             $the_query = new WP_Query($args);
             if ( $the_query->have_posts() ) :

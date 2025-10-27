@@ -68,6 +68,17 @@ Template Name: お知らせ詳細
           <div class="p-news-details__cont">
             <?php the_content(); ?>
           </div>
+
+          <div class="p-news-details__btn">
+              <a href="<?php echo esc_url( home_url( '/news/' ) ); ?>" class="c-btn">
+                <span class="c-btn__txt">お知らせ一覧</span>
+                <span class="c-btn__svg-wrap">
+                  <svg class="c-btn__svg" width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.386963 6.15234L14.137 6.15234M9.66821 10.9648L14.4807 6.15234L9.66821 1.33984" stroke="#2196F3"/>
+                  </svg>
+                </span>
+              </a>
+            </div>
         </div>
       </section>
 
