@@ -3,16 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta property="og:description" content="">
-  <meta property="og:url" content=""/>
-  <meta property="og:site_name" content="タイトル"/>
-  <meta property="og:type" content="website">
-  <meta property="og:locale" content="ja-JP">
-  <meta property="og:image" content="">
-  <meta name="twitter:card" content="summary">
-
-  <title>テスト</title>
 
   <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.min.css">
