@@ -2,9 +2,13 @@
 
 .p-strengths-sustainability {
   & {
-    margin-top: 8rem;
+    padding-top: 12rem;
     position: relative;
     z-index: 2;
+
+    @media (max-width: 767px) {
+        padding-top: 8rem;
+      }
 
     &__details {
       margin-top: 7.2rem;

@@ -5,7 +5,8 @@
     margin-top: 12rem;
 
     @media (max-width: 767px) {
-      margin-top: 8rem;
+      margin-top: 0;
+      padding-top: 4rem;
     }
     
     &__inner {

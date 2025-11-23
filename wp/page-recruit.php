@@ -104,7 +104,7 @@ Template Name: 採用情報
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/recruit/data/data_img06.svg" width="120" height="120" alt="社員平均年齢">
                   </picture>
                   <span class="p-recruit-data__num">
-                    <span class="p-recruit-data__l-txt">60</span>年
+                    <span class="p-recruit-data__l-txt">60</span>年超
                   </span>
                   <span class="p-recruit-data__note">2016年に会社分割実施</span>
                 </div>

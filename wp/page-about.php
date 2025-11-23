@@ -329,6 +329,10 @@ Template Name: 会社情報
       <section class="p-about-area">
         <div class="p-about-area__inner">
           <h2 class="c-under-sec-ttl">対応エリア</h2>
+          <p class="p-about-area__txt">
+            当社の営業範囲は<span class="p-about-area__red-txt">国内全域</span>です。<br>
+            全ての地域に営業担当者をつけて迅速に対応いたします。
+          </p>
           <picture class="p-about-area__img">
             <source srcset="<?php echo get_template_directory_uri(); ?>/assets/img/about/area/area_img.webp" type="image/webp">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about/area/area_img.png" width="960" height="861" alt="対応エリア">

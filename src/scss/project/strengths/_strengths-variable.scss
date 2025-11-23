@@ -2,12 +2,12 @@
 
 .p-strengths-variable {
   & {
-    margin-top: 12rem;
+    padding-top: 12rem;
     position: relative;
     z-index: 2;
 
     @media (max-width: 767px) {
-      margin-top: 8rem;
+      padding-top: 8rem;
     }
 
     &__list {

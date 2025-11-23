@@ -28,5 +28,20 @@
         margin: 3.2rem auto 0;
       }
     }
+
+    &__txt {
+      text-align: center;
+      line-height: 180%;
+      letter-spacing: .03em;
+      margin-top: 7.2rem;
+
+      @media (max-width: 767px) {
+        margin-top: 5.6rem;
+      }
+    }
+
+    &__red-txt {
+      color: $color-orange;
+    }
   }
 }
