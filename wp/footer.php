@@ -221,5 +221,13 @@
   <script type="module" src="<?php echo get_template_directory_uri(); ?>/assets/js/main.min.js"></script>
 
   <?php wp_footer(); ?>
+
+  <script>
+    document.write(
+      "<a href='https://cgipocket.com/' target='_blank'>" +
+      "<img src='https://www.watanabe-wire.com/cgi/daily2.cgi?ref=" + document.referrer + "' border='0'>" +
+      "</a>"
+    );
+  </script>
 </body>
 </html>
