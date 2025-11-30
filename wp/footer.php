@@ -224,8 +224,8 @@
 
   <script>
     document.write(
-      "<a href='https://cgipocket.com/' target='_blank'>" +
-      "<img src='https://www.watanabe-wire.com/cgi/daily2.cgi?ref=" + document.referrer + "' border='0'>" +
+      "<a href='https://cgipocket.com/' target='_blank' style='display:none;'>" +
+        "<img src='https://www.watanabe-wire.com/cgi/daily2.cgi?ref=" + document.referrer + "'>" +
       "</a>"
     );
   </script>
