@@ -222,12 +222,12 @@
 
   <?php wp_footer(); ?>
 
-  <script>
+  <!-- <script>
     document.write(
       "<a href='https://cgipocket.com/' target='_blank' style='display:none;'>" +
         "<img src='https://www.watanabe-wire.com/cgi/daily2.cgi?ref=" + document.referrer + "'>" +
       "</a>"
     );
-  </script>
+  </script> -->
 </body>
 </html>

@@ -13,6 +13,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
 
   <?php wp_head(); ?>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VGLYLFS2PL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-VGLYLFS2PL');
+  </script>
 </head>
 
 <body <?php if ( ! is_front_page() && ! is_home() ) echo 'class="under-page"'; ?>>
