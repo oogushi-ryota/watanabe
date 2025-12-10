@@ -20,8 +20,15 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-VGLYLFS2PL');
+  </script>
+  
+  <!-- BowNow Tag -->
+  <script id="_bownow_ts">
+    var _bownow_ts = document.createElement('script');
+    _bownow_ts.charset = 'utf-8';
+    _bownow_ts.src = 'https://contents.bownow.jp/js/UTC_f4a24b1f08835e1c620a/trace.js';
+    document.getElementsByTagName('head')[0].appendChild(_bownow_ts);
   </script>
 </head>
 
