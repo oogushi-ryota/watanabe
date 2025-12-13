@@ -39,7 +39,7 @@ Template Name: 会社情報
           <p class="p-about-lead__txt">
             株式会社ワタナベはワイヤーカット加工を中核事業とするワイヤーカット専門企業であり<br class="is-pc">
             競争力あるワイヤーカット加工サービスをお客様に提供することで厳しい環境下にある<br class="is-pc">
-            「ものづくり日本の競争力強化に微力ながら貢献する事」を目標とする会社であります。<br>
+            「ものづくり日本の競争力強化に貢献する事」を目標とする会社であります。<br>
             この目標実現の為、以下３点に関し国内最高のサービスを目指しております。
           </p>
         </div>
@@ -65,7 +65,7 @@ Template Name: 会社情報
                 </span>
                 <span class="p-about-philosophy__customers-ja-txt">
                   最高水準の<br>
-                  品質･技術を実現する
+                  品質･技術を提供する
                 </span>
               </li>
               <li class="p-about-philosophy__customers-item">
@@ -133,7 +133,6 @@ Template Name: 会社情報
               <ol class="p-about-policy__details-olist">
                 <li class="p-about-policy__details-olist-item">環境に与える影響を考慮した事業活動を推進し、継続的な改善と汚染予防に努める</li>
                 <li class="p-about-policy__details-olist-item">企業活動における廃棄物の削減、省エネルギーに努める</li>
-                <li class="p-about-policy__details-olist-item">品質向上のため、全社員が協力する</li>
                 <li class="p-about-policy__details-olist-item">
                   企業活動をする上で、環境関連法令等を遵守する<br>
                   有害化学物質等は適切に管理し、環境汚染と健康被害を予防する
