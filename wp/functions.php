@@ -9,6 +9,12 @@ add_theme_support('post-thumbnails');
 //自動補完リダイレクト機能を停止
 add_filter( 'do_redirect_guess_404_permalink', '__return_false' );
 
+// title-tag サポートを有効にする
+function my_theme_support() {
+	add_theme_support( 'title-tag' );
+}
+add_action( 'after_setup_theme', 'my_theme_support' );
+
 //スラッグの変更によるリダイレクト機能を停止
 remove_action( 'template_redirect', 'wp_old_slug_redirect' );
 
